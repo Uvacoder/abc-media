@@ -47,7 +47,7 @@ const booksRead = [
     {   id: "39",
         title: "Den of Thieves",
         isbn: "9780671638023",
-        rating: 4,
+        rating: 4.5,
         review: "Pairs well with Barbarians at the Gate with a lot of the same people and firms. The book is another example of how the crooks are always ahead of the regulators. People like Milken, Boesky and Levine knew they were breaking the law, they just knew that the penalty would nowhere match the riches. A decade and a half letter junk bonds would be replaced with junk mortgages. Theres a kernel of a fresh new idea and a wunderkind that allows the scheme to grow and take root. On one hand it's frustrating that the individuals get off so lightly. However now it seems that the companies they work for are destroyed. You would think that at the higher levels of a company the leadership would learn this lesson, but the reward is to great to pass up."
     },
     {   id: "37",
