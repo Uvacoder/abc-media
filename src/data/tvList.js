@@ -276,6 +276,13 @@ const tvWatched = [
 ]
 
 const tvWatching = [
+    {
+        id: "873",
+        title: "Star Trek: The Next Generation",
+        poster: "/m8Jp435AhUBmltmPyP5LOYjc80V.jpg",
+        rating: 4,
+        review: ""
+    },
     
     {
         id: "873",
