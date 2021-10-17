@@ -733,6 +733,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
+    {
+        id: "11018",
+        title: "Year of the Dragon",
+        poster: "/jdnGXZE2Ty2OcRGFwDZRpglODrp.jpg",
+        rating: 3.5,
+        review: ""
+    },
     
     {
         id: "32040",
