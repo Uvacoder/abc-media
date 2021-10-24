@@ -277,6 +277,13 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "93405",
+        title: "Squid Game",
+        poster: "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "873",
         title: "Star Trek: The Next Generation",
         poster: "/m8Jp435AhUBmltmPyP5LOYjc80V.jpg",
