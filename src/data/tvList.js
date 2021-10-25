@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "93405",
+        title: "Squid Game",
+        poster: "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+        rating: 4,
+        review: "Squid Game was a really good show that benefits from the lack of any quality television coming out. Part Battle Royale, part Willy Wonka. The dubbing was actually well done for once. It was all around a high quality production. But there are certainly parts that wouldn't hold up to scrutiny and plot lines that the show could have done without. I think that the dialogue of the rich people was down right horrible and the very definition of an exposition dump. I didn't mind the ending even though it seemed tacked on."
+    },
+    {
         id: "1908",
         title: "Miami Vice",
         poster: "/6psPEKu03UCiLqBxzeSy7wRQOVN.jpg",
@@ -276,13 +283,6 @@ const tvWatched = [
 ]
 
 const tvWatching = [
-    {
-        id: "93405",
-        title: "Squid Game",
-        poster: "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-        rating: 4,
-        review: ""
-    },
     {
         id: "873",
         title: "Star Trek: The Next Generation",

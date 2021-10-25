@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "11018",
+        title: "Year of the Dragon",
+        poster: "/jdnGXZE2Ty2OcRGFwDZRpglODrp.jpg",
+        rating: 3.5,
+        review: "The first two third of this movie are a bit of a slog. The sound mixing is off and I had to use closed captions for some of it. A lot of the shots are beautiful but there seems like there are a few scenes missing. When the last third of the movie kicks in, and you'll know when it happens - the movie is a rocket ship."
+    },
+    {
         id: "34813",
         title: "The Losers",
         poster: "/e5oD3fuQpjZ8Po6WNW0VkUJmW52.jpg",
@@ -733,13 +740,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "11018",
-        title: "Year of the Dragon",
-        poster: "/jdnGXZE2Ty2OcRGFwDZRpglODrp.jpg",
-        rating: 3.5,
-        review: ""
-    },
     
     {
         id: "32040",
