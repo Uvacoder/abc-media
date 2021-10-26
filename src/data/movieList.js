@@ -740,6 +740,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
+    {
+        id: "814",
+        title: "An American Werewolf in London",
+        poster: "/hN333m776qWYnbjTTcykwClYNgx.jpg",
+        rating: 4,
+        review: ""
+    },
     
     {
         id: "32040",
