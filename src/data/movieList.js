@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "814",
+        title: "An American Werewolf in London",
+        poster: "/hN333m776qWYnbjTTcykwClYNgx.jpg",
+        rating: 4,
+        review: "It's pretty sad that a 40 year old film has better special effects than most movies coming out today. The make-up is better than anything that a computer can create. The scene with Griffin Dunne in the hospital is incredible. The movie really zips by and mixes comedy and horror perfectly."
+    },
+    {
         id: "11018",
         title: "Year of the Dragon",
         poster: "/jdnGXZE2Ty2OcRGFwDZRpglODrp.jpg",
@@ -740,13 +747,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "814",
-        title: "An American Werewolf in London",
-        poster: "/hN333m776qWYnbjTTcykwClYNgx.jpg",
-        rating: 4,
-        review: ""
-    },
     
     {
         id: "32040",
