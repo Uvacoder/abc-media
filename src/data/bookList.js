@@ -1,5 +1,11 @@
  const booksReading = [
     {   id: "21",
+        title: "Meet Me in the Bathroom",
+        isbn: "9780062233103",
+        rating: 3.5,
+        review: ""
+    },
+    {   id: "21",
         title: "Neuromancer",
         isbn: "0441012035",
         rating: 3.5,
