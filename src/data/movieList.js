@@ -747,6 +747,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
+    {
+        id: "10890,",
+        title: "Stripes",
+        poster: "/vP8tPOgmJSNOh4bpOv1bFjid3rZ.jpg",
+        rating: 4,
+        review: ""
+    },
     
     {
         id: "32040",
