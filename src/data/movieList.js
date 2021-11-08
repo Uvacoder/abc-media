@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "10890,",
+        title: "Stripes",
+        poster: "/vP8tPOgmJSNOh4bpOv1bFjid3rZ.jpg",
+        rating: 3.5,
+        review: "I've seen this movie a lot, be each time I watch it 2 things become clearer. First the movie should have ended at the Commencement. The last 20 minutes are really not good. But thats a problem with most comedies though. Secondly, Harold Ramis is the start of this movie. The best laughs are from him. Just him in the background goofing on the other solders is a riot. In the end though Stripes is best watched if you stop watching at about the 90 minute mark."
+    },
+    {
         id: "814",
         title: "An American Werewolf in London",
         poster: "/hN333m776qWYnbjTTcykwClYNgx.jpg",
@@ -747,14 +754,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "10890,",
-        title: "Stripes",
-        poster: "/vP8tPOgmJSNOh4bpOv1bFjid3rZ.jpg",
-        rating: 4,
-        review: ""
-    },
-    
     {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
