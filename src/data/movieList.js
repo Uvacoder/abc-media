@@ -755,6 +755,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "20676",
+        title: "Deep Cover",
+        poster: "/gqGigHYIwLkeUm5cSZdgr7gth5c.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
         poster: "/clQgmbmBOxvA2NepvijoL7YUCvr.jpg",

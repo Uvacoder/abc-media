@@ -44,6 +44,12 @@
         isbn: "9780062441386",
         rating: 4,
         review: ""
+    },
+    {   id: "40",
+        title: "The Devil's Candy",
+        isbn: "9780385308243",
+        rating: 4,
+        review: ""
     }
 ].reverse()
 
