@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "20676",
+        title: "Deep Cover",
+        poster: "/gqGigHYIwLkeUm5cSZdgr7gth5c.jpg",
+        rating: 4,
+        review: "Deep Cover is a very good movie. Fishburne and Goldblum are tremendous as dealers. Seeing it in 2021 instead of on TV in the 90's, the major difference is how clean and clear the picture is. Its such a tight movie time wise that it almost becomes a negative in the change of the characters. In a lot of the ways a movie like King Of New York stumbles, Deep Cover succeeds. Two problems I had with the movie were: the beginning jump cuts and the intro that gave me the feeling of sea sickness. They were inconsistent with the rest of the movie. Secondly I thought the Tom Clancy type ending was a little much."
+    },
+    {
         id: "10890,",
         title: "Stripes",
         poster: "/vP8tPOgmJSNOh4bpOv1bFjid3rZ.jpg",
@@ -754,13 +761,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "20676",
-        title: "Deep Cover",
-        poster: "/gqGigHYIwLkeUm5cSZdgr7gth5c.jpg",
-        rating: 4,
-        review: ""
-    },
     {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
