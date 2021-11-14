@@ -762,6 +762,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "4909",
+        title: "The Day of the Jackal",
+        poster: "/ddaoTE6ZSRHNnAHNDighdpRW1PZ.jpg",
+        rating: 5,
+        review: ""
+    },
+    {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
         poster: "/clQgmbmBOxvA2NepvijoL7YUCvr.jpg",
