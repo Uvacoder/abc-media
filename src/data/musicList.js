@@ -3,6 +3,22 @@ const musicListening = [
 ].reverse()
 
 const musicListened = [
+    {   
+        id: "58d487ee-0004-4071-992d-b67b264b08df",
+        cover: "https://ia802907.us.archive.org/17/items/mbid-58d487ee-0004-4071-992d-b67b264b08df/mbid-58d487ee-0004-4071-992d-b67b264b08df-25674661896.jpg",
+        artist: "Steely Dan",
+        title: "Can't Buy a Thrill",
+        rating: 4.5,
+        review: ""
+    },
+    {   
+        id: "d9d0b2f4-323b-4324-89c6-9690e68356fb",
+        cover: "https://ia802901.us.archive.org/21/items/mbid-d9d0b2f4-323b-4324-89c6-9690e68356fb/mbid-d9d0b2f4-323b-4324-89c6-9690e68356fb-25959298714.jpg",
+        artist: "Depeche Mode",
+        title: "Violator",
+        rating: 4.5,
+        review: ""
+    },
 
 ]
 
