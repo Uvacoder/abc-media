@@ -1,7 +1,7 @@
 const musicListening = [
     {   
         id: "7fc45f0a-52a5-437f-8cc2-7145ebb9aa86",
-        cover: "https://ia802603.us.archive.org/13/items/mbid-7fc45f0a-52a5-437f-8cc2-7145ebb9aa86/mbid-7fc45f0a-52a5-437f-8cc2-7145ebb9aa86-9536234210.jpg",
+        cover: "https://ia802603.us.archive.org/13/items/mbid-7fc45f0a-52a5-437f-8cc2-7145ebb9aa86/mbid-7fc45f0a-52a5-437f-8cc2-7145ebb9aa86-9536234210_thumb250.jpg",
         artist: "Talking Heads",
         title: "Stop Making Sense",
         rating: 5,
@@ -9,7 +9,7 @@ const musicListening = [
     },
     {   
         id: "af44d5d0-cdd1-44cf-b547-2e5535a86150",
-        cover: "https://ia600704.us.archive.org/20/items/mbid-af44d5d0-cdd1-44cf-b547-2e5535a86150/mbid-af44d5d0-cdd1-44cf-b547-2e5535a86150-21489087720.png",
+        cover: "https://ia800704.us.archive.org/20/items/mbid-af44d5d0-cdd1-44cf-b547-2e5535a86150/mbid-af44d5d0-cdd1-44cf-b547-2e5535a86150-21489087720_thumb250.jpg",
         artist: "Talking Heads",
         title: "More Songs About Buildings and Food",
         rating: 4,
@@ -17,7 +17,7 @@ const musicListening = [
     },
     {   
         id: "bed49e75-d532-482a-8c2d-2560a2d6c98c",
-        cover: "https://ia801308.us.archive.org/33/items/mbid-bed49e75-d532-482a-8c2d-2560a2d6c98c/mbid-bed49e75-d532-482a-8c2d-2560a2d6c98c-19684715136.jpg",
+        cover: "https://ia801308.us.archive.org/33/items/mbid-bed49e75-d532-482a-8c2d-2560a2d6c98c/mbid-bed49e75-d532-482a-8c2d-2560a2d6c98c-19684715136_thumb250.jpg",
         artist: "Dire Straights",
         title: "Brother In Arms",
         rating: 5,
@@ -25,7 +25,7 @@ const musicListening = [
     },
     {   
         id: "09abc8e4-28e2-457b-8bf2-8f46b8dded9b",
-        cover: "https://ia903402.us.archive.org/2/items/mbid-09abc8e4-28e2-457b-8bf2-8f46b8dded9b/mbid-09abc8e4-28e2-457b-8bf2-8f46b8dded9b-28493164923.jpg",
+        cover: "https://ia903402.us.archive.org/2/items/mbid-09abc8e4-28e2-457b-8bf2-8f46b8dded9b/mbid-09abc8e4-28e2-457b-8bf2-8f46b8dded9b-28493164923_thumb250.jpg",
         artist: "Don Henley",
         title: "The End of the Innocence",
         rating: 5,
@@ -38,7 +38,7 @@ const musicListening = [
 const musicListened = [
     {   
         id: "58d487ee-0004-4071-992d-b67b264b08df",
-        cover: "https://ia802907.us.archive.org/17/items/mbid-58d487ee-0004-4071-992d-b67b264b08df/mbid-58d487ee-0004-4071-992d-b67b264b08df-25674661896.jpg",
+        cover: "https://ia802907.us.archive.org/17/items/mbid-58d487ee-0004-4071-992d-b67b264b08df/mbid-58d487ee-0004-4071-992d-b67b264b08df-25674661896_thumb250.jpg",
         artist: "Steely Dan",
         title: "Can't Buy a Thrill",
         rating: 4.5,
@@ -46,7 +46,7 @@ const musicListened = [
     },
     {   
         id: "d9d0b2f4-323b-4324-89c6-9690e68356fb",
-        cover: "https://ia802901.us.archive.org/21/items/mbid-d9d0b2f4-323b-4324-89c6-9690e68356fb/mbid-d9d0b2f4-323b-4324-89c6-9690e68356fb-25959298714.jpg",
+        cover: "https://ia802901.us.archive.org/21/items/mbid-d9d0b2f4-323b-4324-89c6-9690e68356fb/mbid-d9d0b2f4-323b-4324-89c6-9690e68356fb-25959298714_thumb250.jpg",
         artist: "Depeche Mode",
         title: "Violator",
         rating: 4.5,
@@ -54,7 +54,7 @@ const musicListened = [
     },
     {   
         id: "d80fef1d-6a57-4af7-8836-3e3da30c0c55",
-        cover: "https://ia800805.us.archive.org/33/items/mbid-d80fef1d-6a57-4af7-8836-3e3da30c0c55/mbid-d80fef1d-6a57-4af7-8836-3e3da30c0c55-18337155520.jpg",
+        cover: "https://ia800805.us.archive.org/33/items/mbid-d80fef1d-6a57-4af7-8836-3e3da30c0c55/mbid-d80fef1d-6a57-4af7-8836-3e3da30c0c55-18337155520_thumb250.jpg",
         artist: "Elton John",
         title: "Honky Château",
         rating: 4,
