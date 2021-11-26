@@ -39,6 +39,30 @@ const handshakeFiveMusic = [
         rating: 5,
         review: ""
     },
+    {   
+        id: "bbb10475-1e88-4dc6-8ed4-4535103add22",
+        cover: "https://ia600306.us.archive.org/26/items/mbid-fb70321f-78df-30ff-92de-21a4bc9ca16c/mbid-fb70321f-78df-30ff-92de-21a4bc9ca16c-18073305778.jpghttps://ia600207.us.archive.org/24/items/mbid-bbb10475-1e88-4dc6-8ed4-4535103add22/mbid-bbb10475-1e88-4dc6-8ed4-4535103add22-6531720275.jpg",
+        artist: "Otis Redding",
+        title: "The King of Soul",
+        rating: 5,
+        review: ""
+    },
+    {   
+        id: "f739297d-4c8d-401c-843f-6afb86140f58",
+        cover: "https://ia600306.us.archive.org/26/items/mbid-fb70321f-78df-30ff-92de-21a4bc9ca16c/mbid-fb70321f-78df-30ff-92de-21a4bc9ca16c-18073305778.jpghttps://ia600207.us.archive.org/24/items/mbid-bbb10475-1e88-4dc6-8ed4-4535103add22/mbid-bbb10475-1e88-4dc6-8ed4-4535103add22-6531720275.jpg",
+        artist: "Curtis Mayfield",
+        title: "Superfly",
+        rating: 5,
+        review: ""
+    },
+    {   
+        id: "e1262988-757c-4861-9778-65e7d4ef5c55",
+        cover: "https://ia600502.us.archive.org/8/items/mbid-e1262988-757c-4861-9778-65e7d4ef5c55/mbid-e1262988-757c-4861-9778-65e7d4ef5c55-8016931920.jpg",
+        artist: "Steve Winwood",
+        title: "Revolutions: The Very Best of Steve Winwood",
+        rating: 5,
+        review: ""
+    },
 
 ]
 
