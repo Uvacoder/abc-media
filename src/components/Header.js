@@ -19,7 +19,7 @@ function Header(){
               >close_icon</i>
             <a href="#movies" className="firstAnchor" onClick={dropDownNavClick}>Movies</a>
             <a href="#television" onClick={dropDownNavClick}>Television</a>
-            {/* <a href="#music"  onClick={dropDownNavClick}>Music</a>  */}
+            <a href="#music"  onClick={dropDownNavClick}>Music</a> 
             <a href="#books" className="lastAnchor" onClick={dropDownNavClick}>Books</a> 
         </nav>
         </div>

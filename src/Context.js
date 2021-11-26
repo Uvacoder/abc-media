@@ -84,6 +84,17 @@ function ContextProvider({children}) {
         return booksReadSlice === 10 ? setBooksReadSlice() : setBooksReadSlice(10)
     }
 
+    const [musicListeningSlice, setMusicListeningSlice] = useState(10)
+    const [musicListenedSlice, setMusicListenedSlice] = useState(10)
+
+    function handleMusicListeningArrowToggle() {
+        return musicListeningSlice === 10 ? setMusicListeningSlice() : setMusicListeningSlice(10)
+    }
+
+    function handleMusicListedArrowToggle() {
+        return musicListenedSlice === 10 ? setMusicListenedSlice() : setMusicListenedSlice(10)
+    }
+
 
     const [isNavOpen, setIsNavOpen] = useState(false)
 
@@ -98,7 +109,7 @@ function ContextProvider({children}) {
 
 
     return (
-        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer, fullDim, handleMovieWatchingArrowToggle, handleMovieWatchedArrowToggle, moviesWatchingSlice, moviesWatchedSlice, handleTvWatchingArrowToggle, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice, handleBooksReadingArrowToggle, handleBooksReadArrowToggle, booksReadingSlice, booksReadSlice, handleHamburgerClick, dropDownNavClick, isNavOpen}}>
+        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer, fullDim, handleMovieWatchingArrowToggle, handleMovieWatchedArrowToggle, moviesWatchingSlice, moviesWatchedSlice, handleTvWatchingArrowToggle, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice, handleBooksReadingArrowToggle, handleBooksReadArrowToggle, booksReadingSlice, booksReadSlice, handleHamburgerClick, dropDownNavClick, isNavOpen, handleMusicListeningArrowToggle, handleMusicListedArrowToggle, musicListeningSlice, musicListenedSlice}}>
             {children}
         </Context.Provider>
     )
