@@ -95,7 +95,19 @@ function Books() {
             <div className="recently_read_flex">
                 {recentlyRead}
                 <div className="slice_toggle" >
-                    <span className="toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleBooksReadArrowToggle} className={booksReadSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                    <span className="toggle_arrow" >
+                    {/* <ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleBooksReadArrowToggle} className={booksReadSlice === 10 ? '' : 'rotate_arrow'} /> */}
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="24" height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="white"
+                        style={{ fontSize: 50 }} onClick={handleBooksReadArrowToggle} className={booksReadSlice === 10 ? '' : 'rotate_arrow'}
+                        
+                        >
+                        <path d="M12 21l-12-18h24z" />
+                    </svg>
+                    </span>
                 </div>
             </div>
         </div>

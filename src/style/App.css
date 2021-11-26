@@ -163,7 +163,7 @@ nav > a {
     margin: 0 auto;
     flex-wrap: wrap;
     /* background-color: rgba(15, 15, 15, .95); */
-    border: 1px solid rgba(15, 15, 15, .95);
+    border: 1px solid rgba(192, 192, 192, .25);
     border-radius: 10px;
     padding-top: 1.5rem;
 }
@@ -176,13 +176,13 @@ nav > a {
   justify-content: center;
 }
 
-.toggle_arrow {
-  color: white;
-}
-
-
 .toggle_arrow:hover {
   cursor: pointer;
+}
+
+.toggle_arrow > svg:hover {
+  fill:  silver;
+  transition: .5s ease-in;
 }
 
 .rotate_arrow {
@@ -306,7 +306,7 @@ nav > a {
 }
 
 .copy_footer {
-  color: rgba(255, 255, 255, .95);
+  color: rgba(255, 255, 255, .5);
   padding: 0rem 2rem;
   margin-top: 2rem;
   font-size: .75rem;
