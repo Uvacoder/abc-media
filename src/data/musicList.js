@@ -31,6 +31,14 @@ const musicListening = [
         rating: 5,
         review: ""
     },
+    {   
+        id: "006fcab0-4f44-4347-b4ee-d313d80e4440",
+        cover: "https://ia803203.us.archive.org/1/items/mbid-006fcab0-4f44-4347-b4ee-d313d80e4440/mbid-006fcab0-4f44-4347-b4ee-d313d80e4440-27350520168_thumb250.jpg",
+        artist: "The Police",
+        title: "Zenyattà Mondatta",
+        rating: 4,
+        review: ""
+    },
     
 
 ].reverse()
@@ -58,6 +66,22 @@ const musicListened = [
         artist: "Elton John",
         title: "Honky Château",
         rating: 4,
+        review: ""
+    },
+    {   
+        id: "3d55b5a4-a81f-3b8e-8d7e-802ce1c86596",
+        cover: "https://ia601301.us.archive.org/29/items/mbid-038df3a9-8e9d-49b4-9732-b23810fbf129/mbid-038df3a9-8e9d-49b4-9732-b23810fbf129-11855195774_thumb250.jpg",
+        artist: "The Police",
+        title: "Outlandos d’Amour",
+        rating: 3,
+        review: ""
+    },
+    {   
+        id: "2b98e6d7-a521-332f-961e-d281ba33ba3d",
+        cover: "https://ia600100.us.archive.org/2/items/mbid-8cdd453f-8f64-4f71-9eb2-f65f54d1a643/mbid-8cdd453f-8f64-4f71-9eb2-f65f54d1a643-18489531436_thumb250.jpg",
+        artist: "The Police",
+        title: "Reggatta de Blanc ",
+        rating: 3.5,
         review: ""
     },
 
