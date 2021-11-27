@@ -1,7 +1,6 @@
 import React, {useState, useContext} from 'react'
 import {booksReading, booksRead, handshakeFiveBooks} from '../data/bookList'
 import { Context } from '../Context'
-import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
 function Books() {
 

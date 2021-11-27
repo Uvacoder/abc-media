@@ -1,7 +1,6 @@
 import React, {useState, useContext} from 'react'
 import {tvWatched, tvWatching, handshakeFiveTv} from '../data/tvList'
 import { Context } from '../Context'
-import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
 function Tv() {
 

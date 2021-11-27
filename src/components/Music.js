@@ -1,7 +1,6 @@
 import React, {useState, useContext} from 'react'
 import {musicListening, musicListened, handshakeFiveMusic} from '../data/musicList'
 import { Context } from '../Context'
-import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
 function Music() {
 
@@ -85,16 +84,16 @@ function Music() {
             <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Listening</h2>
             <div className="currently_listening_flex">
                 {nowListening}
-                 <div className="slice_toggle" style={{display: nowListening.length < 10 ? 'none' : ''}} >
+                 {/* <div className="slice_toggle" style={{display: nowListening.length < 10 ? 'none' : ''}} >
                     <span className="toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMusicListeningArrowToggle} className={musicListeningSlice === 10 ? '' : 'rotate_arrow'} /></span>
-                </div> 
+                </div>  */}
             </div>
             <h2 className="sub_section_title"  title="recentlyRead" style={dimmer}>Recently Listened</h2>
             <div className="recently_listening_flex">
                 {recentlyListened}
-                <div className="slice_toggle" style={{display: recentlyListened.length < 10 ? 'none' : ''}} >
+                {/* <div className="slice_toggle" style={{display: recentlyListened.length < 10 ? 'none' : ''}} >
                     <span className="toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMusicListedArrowToggle} className={musicListenedSlice === 10 ? '' : 'rotate_arrow'} /></span>
-                </div>
+                </div> */}
             </div>
         </div>
     )

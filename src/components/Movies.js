@@ -1,7 +1,6 @@
 import React, {useState, useContext} from 'react'
 import { handshakeFiveMovies, moviesWatched, moviesWatching } from '../data/movieList'
 import { Context } from '../Context'
-import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import Tooltip from '@material-ui/core/Tooltip';
 
