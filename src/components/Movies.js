@@ -95,7 +95,7 @@ import Tooltip from '@material-ui/core/Tooltip';
             </h2>
             <div className="currently_watching_flex">
                 {nowWatchingMovies}
-                <div className="slice_toggle" >
+                <div className="slice_toggle" style={{display: nowWatchingMovies.length > 9 ? "" : "none"}} >
                     <span className="toggle_arrow" >
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
@@ -113,7 +113,7 @@ import Tooltip from '@material-ui/core/Tooltip';
             <h2 className="sub_section_title" style={dimmer}>Recently Watched</h2>
             <div className="recently_watched_flex">
                 {recentlyWatchedMovies}
-                <div className="slice_toggle" >
+                <div className="slice_toggle" style={{display: recentlyWatchedMovies.length > 9 ? "" : "none"}} >
                     <span className="toggle_arrow" >
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" 

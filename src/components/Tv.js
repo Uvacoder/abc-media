@@ -4,14 +4,12 @@ import { Context } from '../Context'
 
 function Tv() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice, handleTvWatchingArrowToggle} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
     
-  
-
     const handshakeTv = handshakeFiveTv.map((tv, index) => (
         <div className="tvHandshake"  key={tv.id} style={filterSet(tv, handshakeReview)}>
              <img src={`https://image.tmdb.org/t/p/w200${tv.poster}`} alt="tv posters" className="tv" />
@@ -88,14 +86,24 @@ function Tv() {
             </h2>
             <div className="currently_watching_tv_flex">
                 {nowWatchingTv}
-                {/* <div className="slice_toggle" >
-                    <span className="toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleTvWatchingArrowToggle} className={tvWatchingSlice === 10 ? '' : 'rotate_arrow'} /></span>
-                </div> */}
+                <div className="slice_toggle" style={{display: nowWatchingTv.length > 9 ? "" : "none"}}>
+                    <span className="toggle_arrow" >
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="24" height="24" 
+                            viewBox="0 0 24 24" 
+                            fill="white"
+                            style={{ fontSize: 50 }} onClick={handleTvWatchingArrowToggle} className={tvWatchingSlice === 10 ? '' : 'rotate_arrow'}
+                        >
+                        <path d="M12 21l-12-18h24z" />
+                        </svg>
+                    </span>
+                </div>
             </div>
             <h2 className="sub_section_title" style={dimmer}>Recently Watched</h2>
             <div className="recently_watched__tv_flex">
                 {recentlyWatchedTv}
-                <div className="slice_toggle" >
+                <div className="slice_toggle" style={{display: recentlyWatchedTv.length > 9 ? "" : "none"}}>
                     <span className="toggle_arrow" >
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
