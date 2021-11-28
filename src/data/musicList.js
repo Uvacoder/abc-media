@@ -94,7 +94,7 @@ const handshakeFiveMusic = [
         artist: "Led Zeppelin",
         title: "Led Zeppelin II",
         rating: 5,
-        review: ""
+        review: "Easily my favorite Zeppelin album. There are others that have higher highs but those also have lower lows. There are other albums that are more artsy or expand the band range, but this is the band fresh from touring fully cooked. A group of veteran musicians gelling into something new."
     },
     {   
         id: "9162580e-5df4-32de-80cc-f45a8d8a9b1d",
@@ -102,7 +102,7 @@ const handshakeFiveMusic = [
         artist: "The Beatles",
         title: "Abbey Road",
         rating: 5,
-        review: ""
+        review: "It really comes done to this or Sgt. Peppers. I lean toward this more because this really is the end and you start to get each member branch out as their own man more. The medley in the end really makes the whole album."
     },
     {   
         id: "bbb10475-1e88-4dc6-8ed4-4535103add22",
@@ -110,7 +110,7 @@ const handshakeFiveMusic = [
         artist: "Otis Redding",
         title: "The King of Soul",
         rating: 5,
-        review: ""
+        review: "I fear that someday this album will disappear in the all digital future. At four hours and a half hours it's hard to images any compilation that so fully encapsulates an artist. "
     },
     {   
         id: "f739297d-4c8d-401c-843f-6afb86140f58",
@@ -118,7 +118,7 @@ const handshakeFiveMusic = [
         artist: "Curtis Mayfield",
         title: "Superfly",
         rating: 5,
-        review: ""
+        review: "It was between this or 'Curtis' but the song Think put this over the top. Even though it's a soundtrack, few albums put you in a time or a place like Superfly and I'm not even talking about the putting you in the movie. I'm talking about the actual streets. If people still make music about larger issues anymore, fifty years later this is still relevant."
     },
     {   
         id: "e1262988-757c-4861-9778-65e7d4ef5c55",
@@ -126,7 +126,7 @@ const handshakeFiveMusic = [
         artist: "Steve Winwood",
         title: "Revolutions: The Very Best of Steve Winwood",
         rating: 5,
-        review: ""
+        review: "A great collection that gives you all the early Winwood hits with the 80's comeback. In a way he really need the 80's megahits to cement his legacy and the promise of the boy wonder. In his younger days he came across as a much more mature artist compared to his many band mates. But later on while the themes are more mature the music became much more pop while retaining the musical chops. It makes me wish there was still adult contemporary music. But would there be any artist to fill the charts?"
     },
 
 ]
