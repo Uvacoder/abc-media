@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
 
 :root {
   background-color: black;
@@ -67,8 +67,6 @@ nav > a {
   
 }
 
-
-
 .menu-icon {
   visibility: hidden;
   font-size: 2.5rem;
@@ -111,8 +109,8 @@ nav > a {
   font-size: 1.25rem;
   background: transparent;  
   text-align: end;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 100;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
 
 .tool_tip:hover {
@@ -135,8 +133,8 @@ nav > a {
   letter-spacing: 2px;
   padding-bottom: 1rem;
   text-align: start;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 600;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -149,6 +147,7 @@ nav > a {
   font-size: 1.25rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -233,6 +232,7 @@ nav > a {
   font-size: .75rem;
   width: 200px;
   color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .word_box {
@@ -249,7 +249,7 @@ nav > a {
   height: auto;
   min-height: 0;
   font-size: .75rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* border-radius: 5px;
   border-bottom-right-radius: 0px; */
   text-align: start;
@@ -314,8 +314,8 @@ nav > a {
   padding: 0rem 2rem;
   margin-top: 2rem;
   font-size: .75rem;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 100;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 
 .logo {
