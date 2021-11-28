@@ -57,7 +57,7 @@ const musicListened = [
         cover: "https://ia802901.us.archive.org/21/items/mbid-d9d0b2f4-323b-4324-89c6-9690e68356fb/mbid-d9d0b2f4-323b-4324-89c6-9690e68356fb-25959298714_thumb250.jpg",
         artist: "Depeche Mode",
         title: "Violator",
-        rating: 4.5,
+        rating: 4,
         review: ""
     },
     {   
