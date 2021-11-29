@@ -4,14 +4,14 @@ import { Context } from '../Context'
 
 function Games() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer,  handleMusicListeningArrowToggle, handleMusicListedArrowToggle, musicListeningSlice, musicListenedSlice} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer,  gamesPlayingSlice, gamesPlayedSlice, handleGamesPlayingArrowToggle, handleGamesPlayedToggle} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
 
 
-    const musicHandshake = handshakeFiveGames.map((music, index) => (
+    const gamesHandshake = handshakeFiveGames.map((music, index) => (
         <div className="musicHandshake"  key={music.id} style={filterSet(music, handshakeReview)}>
             <img src={`${music.cover}`} alt="album cover" className="music"  />
             <div  className="word_box">
@@ -33,7 +33,7 @@ function Games() {
         </div>
     ))
 
-    const nowListening = gamesPlaying.slice(0, musicListenedSlice).map((music, index) => (
+    const nowListening = gamesPlaying.slice(0, gamesPlayingSlice).map((music, index) => (
         <div className="now_listening"    key={music.id} style={filterSet(music, watchingReview)}>
             <img src={`${music.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
@@ -54,7 +54,7 @@ function Games() {
         </div>
     ))
 
-    const recentlyListened = gamesPlayed.slice(0, musicListeningSlice).map((music, index) => (
+    const recentlyListened = gamesPlayed.slice(0, gamesPlayedSlice).map((music, index) => (
         <div className="recently_listened"  key={music.id} style={filterSet(music, watchedReview)} >
             <img src={`${music.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
@@ -80,7 +80,7 @@ function Games() {
             <h1 className="section_title" id="music"   style={dimmer}>Games</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
             <div className="music_handshake_flex">
-                {musicHandshake}
+                {gamesHandshake}
             </div>
             <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Playing</h2>
             <div className="currently_listening_flex">
@@ -92,7 +92,7 @@ function Games() {
                         width="24" height="24" 
                         viewBox="0 0 24 24" 
                         fill="white"
-                        style={{ fontSize: 50 }} onClick={handleMusicListeningArrowToggle} className={musicListeningSlice === 10 ? '' : 'rotate_arrow'}
+                        style={{ fontSize: 50 }} onClick={handleGamesPlayingArrowToggle} className={gamesPlayingSlice === 10 ? '' : 'rotate_arrow'}
                         >
                         <path d="M12 21l-12-18h24z" />
                     </svg>
@@ -109,7 +109,7 @@ function Games() {
                         width="24" height="24" 
                         viewBox="0 0 24 24" 
                         fill="white"
-                        style={{ fontSize: 50 }} onClick={handleMusicListedArrowToggle} className={musicListenedSlice === 10 ? '' : 'rotate_arrow'}
+                        style={{ fontSize: 50 }} onClick={handleGamesPlayedToggle} className={gamesPlayedSlice === 10 ? '' : 'rotate_arrow'}
                         >
                         <path d="M12 21l-12-18h24z" />
                     </svg>
