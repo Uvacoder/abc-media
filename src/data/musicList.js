@@ -50,7 +50,7 @@ const musicListened = [
         artist: "Steely Dan",
         title: "Can't Buy a Thrill",
         rating: 4.5,
-        review: ""
+        review: "I'm convinced that a lot of the dismissiveness of Steely Dan is from people who have never listened to a full album or on heard songs on the radio. I remember hear theses songs on barely stereo car speakers as a kid but with the current quality of speakers and tracks this album shines. Besides the hits on this album there are song really good secondary cuts. My personal favorite is Change of the Guard."
     },
     {   
         id: "d9d0b2f4-323b-4324-89c6-9690e68356fb",
@@ -58,7 +58,7 @@ const musicListened = [
         artist: "Depeche Mode",
         title: "Violator",
         rating: 4,
-        review: ""
+        review: "It's very clearly a influential album. In fact most of these songs would probably trend nowadays as instrumentals. I'm not sure that its the greatest mix though, the vocals are too low in most places. In fact the major sounds on the album are better in the later Depeche releases."
     },
     {   
         id: "d80fef1d-6a57-4af7-8836-3e3da30c0c55",
