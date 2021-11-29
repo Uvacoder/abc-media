@@ -14,6 +14,7 @@ function Music() {
         <div className="musicHandshake"  key={music.id} style={filterSet(music, handshakeReview)}>
             <img src={`${music.cover}`} alt="album cover" className="music"  />
             <div  className="word_box">
+            <h4 className="artist"  style={{marginLeft: "2rem"}}>{music.artist}</h4>
             <h4 className="title"  style={{marginLeft: "2rem"}}>{music.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
             { handshakeReview === music.id ? 
@@ -36,6 +37,7 @@ function Music() {
         <div className="now_listening"    key={music.id} style={filterSet(music, watchingReview)}>
             <img src={`${music.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
+            <h4 className="artist"  style={{marginLeft: "2rem"}}>{music.artist}</h4>
             <h4 className="title" style={{marginLeft: "2rem"}}>{music.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
              { watchingReview === music.id ? 
@@ -57,6 +59,7 @@ function Music() {
         <div className="recently_listened"  key={music.id} style={filterSet(music, watchedReview)} >
             <img src={`${music.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
+            <h4 className="artist"  style={{marginLeft: "2rem"}}>{music.artist}</h4>
             <h4 className="title" style={{marginLeft: "2rem"}}>{music.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
             { watchedReview === music.id ? 

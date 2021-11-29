@@ -228,11 +228,15 @@ nav > a {
   margin-left: .25rem;
   font-size: .5rem;
 }
-.title {
+.title, .artist {
   font-size: .75rem;
   width: 200px;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.artist {
+  margin-bottom: -.75rem;
 }
 
 .word_box {
