@@ -32,7 +32,7 @@ function Music() {
         </div>
     ))
 
-    const nowListening = musicListening.slice(0, musicListenedSlice).map((music, index) => (
+    const nowListening = musicListening.slice(0, musicListeningSlice).map((music, index) => (
         <div className="now_listening"    key={music.id} style={filterSet(music, watchingReview)}>
             <img src={`${music.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
@@ -53,7 +53,7 @@ function Music() {
         </div>
     ))
 
-    const recentlyListened = musicListened.slice(0, musicListeningSlice).map((music, index) => (
+    const recentlyListened = musicListened.slice(0, musicListenedSlice).map((music, index) => (
         <div className="recently_listened"  key={music.id} style={filterSet(music, watchedReview)} >
             <img src={`${music.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
