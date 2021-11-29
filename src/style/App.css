@@ -167,6 +167,14 @@ nav > a {
     padding-top: 1.5rem;
 }
 
+.music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
+  padding: 2rem 0;
+}
+
+.musicHandshake, .now_listening, .recently_listened {
+  padding: 1rem 0;
+}
+
 .currently_reading_flex:hover, .book_handshake_flex:hover, .recently_read_flex:hover, .movies_handshake_flex:hover, .currently_watching_flex:hover, .recently_watched_flex:hover, .tv_handshake_flex:hover, .currently_watching_tv_flex:hover, .recently_watched__tv_flex:hover, .music_handshake_flex:hover, .currently_listening_flex:hover, .recently_listening_flex:hover {
   background-color: rgba(15, 15, 15, .95);
 }
@@ -236,6 +244,7 @@ nav > a {
 }
 
 .artist {
+  padding-top: .5rem;
   margin-bottom: -.75rem;
 }
 
