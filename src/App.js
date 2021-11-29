@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import IconNav from './components/IconNav'
 import Music from './components/Music';
+import Games from './components/Games'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
      <Movies />
      <Tv />
      <Music />
+     {/* <Games /> */}
      <Books />
      <Footer />
     </div>

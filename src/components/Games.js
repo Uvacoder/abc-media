@@ -11,7 +11,7 @@ function Games() {
     const [watchingReview, setWatchingReview] = useState()
 
 
-    const musicHandshake = handshakeFiveMusic.map((music, index) => (
+    const musicHandshake = handshakeFiveGames.map((music, index) => (
         <div className="musicHandshake"  key={music.id} style={filterSet(music, handshakeReview)}>
             <img src={`${music.cover}`} alt="album cover" className="music"  />
             <div  className="word_box">
@@ -19,13 +19,13 @@ function Games() {
             <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
             { handshakeReview === music.id ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveMusic, handshakeReview, setHandshakeReview)}
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveGames, handshakeReview, setHandshakeReview)}
                 style={{display: music.review === "" ? "none" : ""}}
                 >arrow_drop_up_icon</i>
                 <p className="review" style={{display:  music.review ? "block" : "none"}}>{music.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, handshakeFiveMusic, handshakeReview, setHandshakeReview)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, handshakeFiveGames, handshakeReview, setHandshakeReview)}
                  style={{display: music.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -33,7 +33,7 @@ function Games() {
         </div>
     ))
 
-    const nowListening = musicListening.slice(0, musicListenedSlice).map((music, index) => (
+    const nowListening = gamesPlaying.slice(0, musicListenedSlice).map((music, index) => (
         <div className="now_listening"    key={music.id} style={filterSet(music, watchingReview)}>
             <img src={`${music.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
@@ -41,12 +41,12 @@ function Games() {
             <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
              { watchingReview === music.id ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, musicListening, watchingReview, setWatchingReview)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlaying, watchingReview, setWatchingReview)} 
                 style={{display: music.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  music.review ? "block" : "none"}}>{music.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, musicListening, watchingReview, setWatchingReview)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlaying, watchingReview, setWatchingReview)}
                  style={{display: music.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -54,7 +54,7 @@ function Games() {
         </div>
     ))
 
-    const recentlyListened = musicListened.slice(0, musicListeningSlice).map((music, index) => (
+    const recentlyListened = gamesPlayed.slice(0, musicListeningSlice).map((music, index) => (
         <div className="recently_listened"  key={music.id} style={filterSet(music, watchedReview)} >
             <img src={`${music.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
@@ -62,12 +62,12 @@ function Games() {
             <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
             { watchedReview === music.id ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, musicListened, watchedReview, setWatchedReview)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlayed, watchedReview, setWatchedReview)} 
                 style={{display: music.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  music.review ? "block" : "none"}}>{music.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, musicListened, watchedReview, setWatchedReview)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlayed, watchedReview, setWatchedReview)}
                  style={{display: music.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -77,12 +77,12 @@ function Games() {
 
     return (
         <div>
-            <h1 className="section_title" id="music"   style={dimmer}>Music</h1>
+            <h1 className="section_title" id="music"   style={dimmer}>Games</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
             <div className="music_handshake_flex">
                 {musicHandshake}
             </div>
-            <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Listening</h2>
+            <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Playing</h2>
             <div className="currently_listening_flex">
                 {nowListening}
                 <div className="slice_toggle" style={{display: nowListening.length > 10 ? "" : "none"}} >
@@ -99,7 +99,7 @@ function Games() {
                     </span>
                 </div>
             </div>
-            <h2 className="sub_section_title"  title="recentlyRead" style={dimmer}>Recently Listened</h2>
+            <h2 className="sub_section_title"  title="recentlyRead" style={dimmer}>Recently Played</h2>
             <div className="recently_listening_flex">
                 {recentlyListened}
                 <div className="slice_toggle" style={{display: recentlyListened.length > 10 ? "" : "none"}}>
