@@ -2,7 +2,6 @@ const gamesPlaying = [
     {   
         id: "",
         cover: "https://ia600502.us.archive.org/8/items/mbid-e1262988-757c-4861-9778-65e7d4ef5c55/mbid-e1262988-757c-4861-9778-65e7d4ef5c55-8016931920_thumb250.jpg",
-        system: "",
         title: "",
         rating: 5,
         review: ""
@@ -16,7 +15,6 @@ const gamesPlayed = [
     {   
         id: "",
         cover: "https://ia600502.us.archive.org/8/items/mbid-e1262988-757c-4861-9778-65e7d4ef5c55/mbid-e1262988-757c-4861-9778-65e7d4ef5c55-8016931920_thumb250.jpg",
-        system: "",
         title: "",
         rating: 5,
         review: ""
@@ -29,40 +27,35 @@ const handshakeFiveGames = [
     {   
         id: "",
         cover: "https://ia600502.us.archive.org/8/items/mbid-e1262988-757c-4861-9778-65e7d4ef5c55/mbid-e1262988-757c-4861-9778-65e7d4ef5c55-8016931920_thumb250.jpg",
-        system: "",
-        title: "",
+        title: "Tetris",
         rating: 5,
         review: ""
     },
     {   
         id: "",
         cover: "https://ia600502.us.archive.org/8/items/mbid-e1262988-757c-4861-9778-65e7d4ef5c55/mbid-e1262988-757c-4861-9778-65e7d4ef5c55-8016931920_thumb250.jpg",
-        system: "",
-        title: "",
+        title: "Half Life",
         rating: 5,
         review: ""
     },
     {   
         id: "",
         cover: "https://ia600502.us.archive.org/8/items/mbid-e1262988-757c-4861-9778-65e7d4ef5c55/mbid-e1262988-757c-4861-9778-65e7d4ef5c55-8016931920_thumb250.jpg",
-        system: "",
-        title: "",
+        title: "Metal Gear Solid 2: Sons of Liberty",
         rating: 5,
         review: ""
     },
     {   
         id: "",
         cover: "https://ia600502.us.archive.org/8/items/mbid-e1262988-757c-4861-9778-65e7d4ef5c55/mbid-e1262988-757c-4861-9778-65e7d4ef5c55-8016931920_thumb250.jpg",
-        system: "",
-        title: "",
+        title: "Wolfenstein 3D",
         rating: 5,
         review: ""
     },
     {   
         id: "",
         cover: "https://ia600502.us.archive.org/8/items/mbid-e1262988-757c-4861-9778-65e7d4ef5c55/mbid-e1262988-757c-4861-9778-65e7d4ef5c55-8016931920_thumb250.jpg",
-        system: "",
-        title: "",
+        title: "Resident Evil 2",
         rating: 5,
         review: ""
     },
