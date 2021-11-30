@@ -11,64 +11,64 @@ function Games() {
     const [watchingReview, setWatchingReview] = useState()
 
 
-    const gamesHandshake = handshakeFiveGames.map((music, index) => (
-        <div className="bookHandshake"  key={music.id} style={filterSet(music, handshakeReview)}>
-            <img src={`${music.cover}`} alt="album cover" className="book"  />
+    const gamesHandshake = handshakeFiveGames.map((game, index) => (
+        <div className="bookHandshake"  key={game.id} style={filterSet(game, handshakeReview)}>
+            <img src={`${game.cover}`} alt="album cover" className="book"  />
             <div  className="word_box">
-            <h4 className="title" >{music.title}</h4>
-            <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
-            { handshakeReview === music.id ? 
+            <h4 className="title" >{game.title}</h4>
+            <span className="star-container" ><h4 className="star">{ fullStarMaker(game.rating)}</h4><h4 className="half-star">{halfStarMaker(game.rating)}</h4></span>
+            { handshakeReview === game.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveGames, handshakeReview, setHandshakeReview)}
-                style={{display: music.review === "" ? "none" : ""}}
+                style={{display: game.review === "" ? "none" : ""}}
                 >arrow_drop_up_icon</i>
-                <p className="review" style={{display:  music.review ? "block" : "none"}}>{music.review}</p>
+                <p className="review" style={{display:  game.review ? "block" : "none"}}>{game.review}</p>
                 </div>
                  :
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, handshakeFiveGames, handshakeReview, setHandshakeReview)}
-                 style={{display: music.review === "" ? "none" : ""}}
+                 style={{display: game.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
             </div>   
         </div>
     ))
 
-    const nowPlaying = gamesPlaying.slice(0, gamesPlayingSlice).map((music, index) => (
-        <div className="now_listening"    key={music.id} style={filterSet(music, watchingReview)}>
-            <img src={`${music.cover}`} alt="album cover" className="music" />
+    const nowPlaying = gamesPlaying.slice(0, gamesPlayingSlice).map((game, index) => (
+        <div className="now_listening"    key={game.id} style={filterSet(game, watchingReview)}>
+            <img src={`${game.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
-            <h4 className="title" >{music.title}</h4>
-            <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
-             { watchingReview === music.id ? 
+            <h4 className="title" >{game.title}</h4>
+            <span className="star-container" ><h4 className="star">{ fullStarMaker(game.rating)}</h4><h4 className="half-star">{halfStarMaker(game.rating)}</h4></span>
+             { watchingReview === game.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlaying, watchingReview, setWatchingReview)} 
-                style={{display: music.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
-                <p className="review" style={{display:  music.review ? "block" : "none"}}>{music.review}</p>
+                style={{display: game.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
+                <p className="review" style={{display:  game.review ? "block" : "none"}}>{game.review}</p>
                 </div>
                  :
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlaying, watchingReview, setWatchingReview)}
-                 style={{display: music.review === "" ? "none" : ""}}
+                 style={{display: game.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
             </div>    
         </div>
     ))
 
-    const recentlyPlayed = gamesPlayed.slice(0, gamesPlayedSlice).map((music, index) => (
-        <div className="recently_listened"  key={music.id} style={filterSet(music, watchedReview)} >
-            <img src={`${music.cover}`} alt="album cover" className="music" />
+    const recentlyPlayed = gamesPlayed.slice(0, gamesPlayedSlice).map((game, index) => (
+        <div className="recently_listened"  key={game.id} style={filterSet(game, watchedReview)} >
+            <img src={`${game.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
-            <h4 className="title" >{music.title}</h4>
-            <span className="star-container" ><h4 className="star">{ fullStarMaker(music.rating)}</h4><h4 className="half-star">{halfStarMaker(music.rating)}</h4></span>
-            { watchedReview === music.id ? 
+            <h4 className="title" >{game.title}</h4>
+            <span className="star-container" ><h4 className="star">{ fullStarMaker(game.rating)}</h4><h4 className="half-star">{halfStarMaker(game.rating)}</h4></span>
+            { watchedReview === game.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlayed, watchedReview, setWatchedReview)} 
-                style={{display: music.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
-                <p className="review" style={{display:  music.review ? "block" : "none"}}>{music.review}</p>
+                style={{display: game.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
+                <p className="review" style={{display:  game.review ? "block" : "none"}}>{game.review}</p>
                 </div>
                  :
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlayed, watchedReview, setWatchedReview)}
-                 style={{display: music.review === "" ? "none" : ""}}
+                 style={{display: game.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
             </div>   
