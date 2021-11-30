@@ -19,7 +19,7 @@ function App() {
      <Movies />
      <Tv />
      <Music />
-     {/* <Games /> */}
+     <Games />
      <Books />
      <Footer />
     </div>

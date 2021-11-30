@@ -7,8 +7,8 @@ function Games() {
     const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer,  gamesPlayingSlice, gamesPlayedSlice, handleGamesPlayingArrowToggle, handleGamesPlayedToggle} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
-    const [watchedReview, setWatchedReview] = useState()
-    const [watchingReview, setWatchingReview] = useState()
+    const [playedReview, setPlayedReview] = useState()
+    const [playingReview, setPlayingReview] = useState()
 
 
     const gamesHandshake = handshakeFiveGames.map((game, index) => (
@@ -34,19 +34,19 @@ function Games() {
     ))
 
     const nowPlaying = gamesPlaying.slice(0, gamesPlayingSlice).map((game, index) => (
-        <div className="now_listening"    key={game.id} style={filterSet(game, watchingReview)}>
+        <div className="now_listening"    key={game.id} style={filterSet(game, playingReview)}>
             <img src={`${game.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
             <h4 className="title" >{game.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(game.rating)}</h4><h4 className="half-star">{halfStarMaker(game.rating)}</h4></span>
-             { watchingReview === game.id ? 
+             { playingReview === game.id ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlaying, watchingReview, setWatchingReview)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlaying, playingReview, setPlayingReview)} 
                 style={{display: game.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  game.review ? "block" : "none"}}>{game.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlaying, watchingReview, setWatchingReview)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlaying, playingReview, setPlayingReview)}
                  style={{display: game.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -55,19 +55,19 @@ function Games() {
     ))
 
     const recentlyPlayed = gamesPlayed.slice(0, gamesPlayedSlice).map((game, index) => (
-        <div className="recently_listened"  key={game.id} style={filterSet(game, watchedReview)} >
+        <div className="recently_listened"  key={game.id} style={filterSet(game, playedReview)} >
             <img src={`${game.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
             <h4 className="title" >{game.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(game.rating)}</h4><h4 className="half-star">{halfStarMaker(game.rating)}</h4></span>
-            { watchedReview === game.id ? 
+            { playedReview === game.id ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlayed, watchedReview, setWatchedReview)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlayed, playedReview, setPlayedReview)} 
                 style={{display: game.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  game.review ? "block" : "none"}}>{game.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlayed, watchedReview, setWatchedReview)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlayed, playedReview, setPlayedReview)}
                  style={{display: game.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -77,7 +77,7 @@ function Games() {
 
     return (
         <div>
-            <h1 className="section_title" id="book"   style={dimmer}>Games</h1>
+            <h1 className="section_title" id="games"   style={dimmer}>Games</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
             <div className="book_handshake_flex">
                 {gamesHandshake}
