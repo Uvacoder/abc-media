@@ -1,6 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {musicListening, musicListened, handshakeFiveMusic} from '../data/musicList'
 import { Context } from '../Context'
+import {MusicIcon} from '../data/Svgs'
 
 function Music() {
 
@@ -79,7 +80,9 @@ function Music() {
    
     return (
         <div>
-            <h1 className="section_title" id="music"   style={dimmer}>Music</h1>
+            <h1 className="section_title" id="music"   style={dimmer}><span style={{fill: "white", paddingRight: ".5rem"}} >
+                <MusicIcon />
+                </span>Music</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
             <div className="music_handshake_flex">
                 {musicHandshake}

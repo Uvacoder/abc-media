@@ -1,6 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {booksReading, booksRead, handshakeFiveBooks} from '../data/bookList'
 import { Context } from '../Context'
+import {BookIcon} from '../data/Svgs'
 
 function Books() {
 
@@ -76,7 +77,9 @@ function Books() {
    
     return (
         <div>
-            <h1 className="section_title" id="books"   style={dimmer}>Books</h1>
+            <h1 className="section_title" id="books"   style={dimmer}><span style={{fill: "white", paddingRight: ".5rem"}} >
+                <BookIcon />
+                </span>Books</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
             <div className="book_handshake_flex">
                 {bookHandshake}

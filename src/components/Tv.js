@@ -1,6 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {tvWatched, tvWatching, handshakeFiveTv} from '../data/tvList'
 import { Context } from '../Context'
+import {TVIcon} from '../data/Svgs'
 
 function Tv() {
 
@@ -77,7 +78,10 @@ function Tv() {
 
     return (
         <div>
-             <h1 className="section_title" id="television" style={dimmer}>Television</h1>
+             <h1 className="section_title" id="television" style={dimmer}>
+                <span style={{fill: "white", paddingRight: ".5rem"}} >
+                <TVIcon />
+                </span>Television</h1>
             <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>
             <div className="tv_handshake_flex">
             {handshakeTv}
