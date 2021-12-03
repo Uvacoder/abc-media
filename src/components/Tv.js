@@ -79,7 +79,7 @@ function Tv() {
     return (
         <div>
              <h1 className="section_title" id="television" style={dimmer}>
-                <span style={{fill: "white", paddingRight: ".5rem"}} >
+                <span className="section_title_icon" >
                 <TVIcon />
                 </span>Television</h1>
             <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>

@@ -78,7 +78,7 @@ function Games() {
 
     return (
         <div>
-            <h1 className="section_title" id="games"   style={dimmer}><span style={{fill: "white", paddingRight: ".5rem"}} >
+            <h1 className="section_title" id="games"   style={dimmer}><span className="section_title_icon" >
                 <GameIcon />
                 </span>Games</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
