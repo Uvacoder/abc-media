@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import { Context } from '../Context'
-import { MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon } from '../data/Svgs'
+import { MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon } from '../data/svgs'
 
 
 export default function IconNav() {

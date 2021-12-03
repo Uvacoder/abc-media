@@ -3,7 +3,7 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from '../data/movi
 import { Context } from '../Context'
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import Tooltip from '@material-ui/core/Tooltip';
-import {MovieIcon} from '../data/Svgs'
+import {MovieIcon} from '../data/svgs'
 
 
  function Movies() {
@@ -84,8 +84,8 @@ import {MovieIcon} from '../data/Svgs'
     return (
         <div >
             <h1 className="section_title" id="movies" style={dimmer}>
-                <span style={{fill: "white", paddingRight: ".5rem"}} >
-                <MovieIcon />
+                <span className="section_title_icon" >
+                    <MovieIcon />
                 </span>Movies</h1>
             <h2 className="sub_section_title" style={dimmer}>Handshake Five
                 <Tooltip className="tool_tip" title="Handshake Five isn’t necessarily my five favorite. But based on those five you should be able to get a good sense of the types of content I’m interested in and I could get a good sense from your five." placement="right">

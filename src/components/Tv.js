@@ -1,7 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {tvWatched, tvWatching, handshakeFiveTv} from '../data/tvList'
 import { Context } from '../Context'
-import {TVIcon} from '../data/Svgs'
+import {TVIcon} from '../data/svgs'
 
 function Tv() {
 

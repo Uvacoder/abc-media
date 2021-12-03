@@ -1,7 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {booksReading, booksRead, handshakeFiveBooks} from '../data/bookList'
 import { Context } from '../Context'
-import {BookIcon} from '../data/Svgs'
+import {BookIcon} from '../data/svgs'
 
 function Books() {
 

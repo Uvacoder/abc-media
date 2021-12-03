@@ -1,7 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {musicListening, musicListened, handshakeFiveMusic} from '../data/musicList'
 import { Context } from '../Context'
-import {MusicIcon} from '../data/Svgs'
+import {MusicIcon} from '../data/svgs'
 
 function Music() {
 

@@ -1,7 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {gamesPlaying, gamesPlayed, handshakeFiveGames} from '../data/gameList'
 import { Context } from '../Context'
-import {GameIcon} from '../data/Svgs'
+import {GameIcon} from '../data/svgs'
 
 function Games() {
 

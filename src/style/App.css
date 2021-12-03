@@ -123,6 +123,11 @@ nav > a {
   font-size: 15px !important;
 }
 
+.section_title_icon {
+  fill: white;
+  padding-right: .5rem;
+}
+
 
 .section_title {
   color: white;
