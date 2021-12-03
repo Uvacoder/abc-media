@@ -125,7 +125,7 @@ nav > a {
 
 .section_title_icon {
   fill: white;
-  padding-right: .5rem;
+  padding: .5rem;
 }
 
 
@@ -267,8 +267,8 @@ nav > a {
   min-height: 0;
   font-size: .75rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* border-radius: 5px;
-  border-bottom-right-radius: 0px; */
+  border-radius: 5px;
+  /* border-bottom-right-radius: 0px; */
   text-align: start;
   position: absolute;
   z-index: 95;
@@ -276,7 +276,7 @@ nav > a {
   color: white;
   padding: 1rem 1rem;
   cursor: pointer;
-  line-height: 2;
+  line-height: 1.75;
   margin-top: -1rem;
   margin-left: -1rem;
   box-shadow: 5px 5px 300px -3px rgba(255, 215, 0, .25);
