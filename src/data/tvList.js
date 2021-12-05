@@ -288,14 +288,14 @@ const tvWatching = [
         title: "The Beatles: Get Back",
         poster: "/nxy9fg1rT853P7zP7ZQGqRimiCS.jpg",
         rating: 4.5,
-        review: ""
+        review: "Isn't funny how anytime a great director creates a documentary they turn out great and we hardly see the hand of the director?"
     },
     {
         id: "57243",
         title: "Doctor Who",
         poster: "/sz4zF5z9zyFh8Z6g5IQPNq91cI7.jpg",
         rating: 4,
-        review: ""
+        review: "I only watched up season 7 last time and I'll stop at the same point this time. No show should go longer than seven seasons and most should not go past four. The show would be better on a Columbia schedule rather then a set episode count. "
     },
     {
         id: "655",
