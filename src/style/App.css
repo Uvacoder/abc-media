@@ -101,6 +101,10 @@ nav > a {
   transition: .5s ease-in;
 }
 
+.blade {
+  display: none;
+}
+
 
 .main_title {
   color: rgba(255, 255, 255, .95);
@@ -374,6 +378,7 @@ nav > a {
     padding-top: 2rem;
     position: relative;
     z-index: 99;
+    height: 300px;
   }
 
   .firstAnchor {
@@ -394,6 +399,20 @@ nav > a {
 
   nav > a:hover {
     background-color:rgba(16,49,107, .975);
+  }
+
+  .blade {
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 335px;
+    left: -5%;
+    width: 110vw;
+    height: 50px;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    border-bottom: 1px solid rgba(192, 192, 192, .25);
+
   }
 
   .menu-icon {
@@ -436,13 +455,12 @@ nav > a {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
     width: 98%;
   }
-}
 
-@media only screen and (max-width: 500px) {
   .iconNav-container {
     width: 40%;
   }
 }
+
 
 @media only screen and (max-width: 450px) {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
