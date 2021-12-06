@@ -33,5 +33,5 @@ function BookIcon() {
     )
 }
 
-export {MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon }
+export { MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon }
 

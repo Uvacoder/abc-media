@@ -3,7 +3,7 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from '../data/movi
 import { Context } from '../Context'
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import Tooltip from '@material-ui/core/Tooltip';
-import {MovieIcon} from '../data/svgs'
+import { MovieIcon } from '../data/svgs'
 
 
  function Movies() {
