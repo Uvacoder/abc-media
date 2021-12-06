@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "4909",
+        title: "The Day of the Jackal",
+        poster: "/ddaoTE6ZSRHNnAHNDighdpRW1PZ.jpg",
+        rating: 5,
+        review: "Pairs well with JFK as they're contemporary. Every time I watch it it get better and better. Edward Fox is perfect as the Jackal but Lebel steals the entire movie. This movie was remade as a bad but fun movie in the 90's, if it was remade today... well I can only imagine the ham-handedness. This movie only comes around the streaming services once a year so if you get a chance - see it."
+    },
+    {
         id: "20676",
         title: "Deep Cover",
         poster: "/gqGigHYIwLkeUm5cSZdgr7gth5c.jpg",
@@ -761,13 +768,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "4909",
-        title: "The Day of the Jackal",
-        poster: "/ddaoTE6ZSRHNnAHNDighdpRW1PZ.jpg",
-        rating: 5,
-        review: ""
-    },
     {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
