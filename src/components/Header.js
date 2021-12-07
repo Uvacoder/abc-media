@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import { Context } from '../Context'
+import '../style/Header.css'
 
 function Header(){
     const {fullDim, handleHamburgerClick, dropDownNavClick, isNavOpen} = useContext(Context)
