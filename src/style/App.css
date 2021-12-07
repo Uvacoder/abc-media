@@ -14,16 +14,7 @@ html, body {
   background: rgba(0, 0, 0); 
 }
 
-.iconNav-container {
-  position: fixed;
-  z-index: 99;
-  width: 20%;
-  height: auto;
-  margin: 1.75rem auto 2rem auto;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+
 
 .header {
   width: 100%;
@@ -60,10 +51,6 @@ nav > a {
   z-index: 99;
 }
 
-.iconNav-icon > svg:hover {
-  fill: silver;
-  
-}
 
 .menu-icon {
   visibility: hidden;
@@ -361,15 +348,10 @@ nav > a {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
     width: 90%;
   }
-  .iconNav-container {
-    left: 2.5%;
-  }
 }
 
 @media only screen and (max-width: 750px) {
-  .iconNav-container {
-    width: 25%;
-  }
+  
   nav {
     top: 0rem;
     left: 0rem;
@@ -440,19 +422,12 @@ nav > a {
     width: 98%;
   }
 
-  .iconNav-container {
-    width: 40%;
-  }
 }
 
 
 @media only screen and (max-width: 450px) {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
     width: 100%;
-  }
-
-  .iconNav-container {
-    display: none;
   }
 
   .nav-container {
