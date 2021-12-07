@@ -1,8 +1,8 @@
 const gamesPlaying = [
     {   
-        id: "co1xhg",
-        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xhg.png",
-        title: "Halo 5: Guardians",
+        id: "co3ofx",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ofx.png",
+        title: "Forza Horizon 5",
         rating: 4,
         review: ""
     },
@@ -12,13 +12,13 @@ const gamesPlaying = [
 ].reverse()
 
 const gamesPlayed = [
-    // {   
-    //     id: "",
-    //     cover: "",
-    //     title: "",
-    //     rating: 5,
-    //     review: ""
-    // },
+    {   
+        id: "co1xhg",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xhg.png",
+        title: "Halo 5: Guardians",
+        rating: 3.5,
+        review: "It's Halo, but was it a giant step up from the other games? I'm not sure. There were parts that felt very Call of Duty. Also I always felt like a was just going through different difficulty of waves of enemies and then the level would end. After playing for 20 minutes I could tell you how the last level would play out. As far as the story I really couldn't tell you what it was about. I lost the plot years ago. Vide game stories still haven't got any better."
+    },
     
 
 ]
