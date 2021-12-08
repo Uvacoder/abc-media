@@ -1,5 +1,4 @@
 
-
 :root {
   background-color: black;
 }
@@ -13,7 +12,6 @@
 html, body {
   background: rgba(0, 0, 0); 
 }
-
 
 .tool_tip:hover {
   cursor: pointer;
@@ -29,7 +27,6 @@ html, body {
   fill: white;
   padding: .5rem;
 }
-
 
 .section_title {
   color: white;
@@ -57,7 +54,6 @@ html, body {
   font-weight: 400;
 }
 
-
 .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
     display: flex;
     justify-content: center;
@@ -67,7 +63,6 @@ html, body {
     max-width: fit-content;
     margin: 0 auto;
     flex-wrap: wrap;
-    /* background-color: rgba(15, 15, 15, .95); */
     border: 1px solid rgba(192, 192, 192, .25);
     border-radius: 10px;
     padding-top: 1.5rem;
@@ -106,7 +101,6 @@ html, body {
   transform: rotate(180deg);
 }
 
-
 .book, .movie, .tv {
   height: 200px;
   width: auto;
@@ -126,15 +120,11 @@ html, body {
   margin-top: -.5rem;
 }
 
-
-
 .star-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .half-star {
   color: gold;
@@ -170,7 +160,6 @@ html, body {
   font-size: .75rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 5px;
-  /* border-bottom-right-radius: 0px; */
   text-align: start;
   position: absolute;
   z-index: 95;
@@ -234,19 +223,16 @@ html, body {
 
 @media only screen and (max-width: 750px) {
 
-.review {
-  max-width: 75%;
-}
-
+  .review {
+    max-width: 75%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
     width: 98%;
   }
-
 }
-
 
 @media only screen and (max-width: 450px) {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
@@ -271,6 +257,7 @@ html, body {
   .review {
     left: 15%;
   }
+  
 }
 
 
