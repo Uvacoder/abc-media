@@ -3,7 +3,14 @@ const gamesPlaying = [
         id: "co3ofx",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ofx.png",
         title: "Forza Horizon 5",
-        rating: 4,
+        rating: 3,
+        review: ""
+    },
+    {   
+        id: "co1xha",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xha.png",
+        title: "Halo: Reach",
+        rating: 3,
         review: ""
     },
   
