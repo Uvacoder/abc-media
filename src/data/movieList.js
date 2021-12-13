@@ -769,6 +769,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "14441",
+        title: "Clean and Sober",
+        poster: "/hztm5P3iCavyz8MCcIDK3BTVtDO.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
         poster: "/clQgmbmBOxvA2NepvijoL7YUCvr.jpg",
