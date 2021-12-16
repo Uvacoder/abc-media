@@ -58,7 +58,7 @@ const musicListened = [
         artist: "Elton John",
         title: "Honky Château",
         rating: 4,
-        review: ""
+        review: "Early to mid Seventies Elton John with Bernie Taupin writing song is peak Elton. Honky Cat and Rocket Man are way more popular but Mona Lisa And Mad Hattters is the best song on the album."
     },
     {   
         id: "3d55b5a4-a81f-3b8e-8d7e-802ce1c86596",
@@ -66,7 +66,7 @@ const musicListened = [
         artist: "The Police",
         title: "Outlandos d’Amour",
         rating: 3,
-        review: ""
+        review: "I look at a band like the Police and see their career as 3 great musicians that were getting better with every album and as so as they made a perfect album they stopped. This isn't that great of an album, it has some goods songs on it. I really like the song Peanuts. It sounds like a group of really good musicians who are technically better musicians than their peers but just don't have the songs or sound yet."
     },
     {   
         id: "2b98e6d7-a521-332f-961e-d281ba33ba3d",
