@@ -24,14 +24,6 @@ const musicListening = [
         review: ""
     },
     {   
-        id: "09abc8e4-28e2-457b-8bf2-8f46b8dded9b",
-        cover: "https://ia903402.us.archive.org/2/items/mbid-09abc8e4-28e2-457b-8bf2-8f46b8dded9b/mbid-09abc8e4-28e2-457b-8bf2-8f46b8dded9b-28493164923_thumb250.jpg",
-        artist: "Don Henley",
-        title: "The End of the Innocence",
-        rating: 5,
-        review: ""
-    },
-    {   
         id: "006fcab0-4f44-4347-b4ee-d313d80e4440",
         cover: "https://ia803203.us.archive.org/1/items/mbid-006fcab0-4f44-4347-b4ee-d313d80e4440/mbid-006fcab0-4f44-4347-b4ee-d313d80e4440-27350520168_thumb250.jpg",
         artist: "The Police",
@@ -83,6 +75,14 @@ const musicListened = [
         title: "Reggatta de Blanc ",
         rating: 3.5,
         review: ""
+    },
+    {   
+        id: "09abc8e4-28e2-457b-8bf2-8f46b8dded9b",
+        cover: "https://ia903402.us.archive.org/2/items/mbid-09abc8e4-28e2-457b-8bf2-8f46b8dded9b/mbid-09abc8e4-28e2-457b-8bf2-8f46b8dded9b-28493164923_thumb250.jpg",
+        artist: "Don Henley",
+        title: "The End of the Innocence",
+        rating: 5,
+        review: "I really don't know if there is still adult contemporary music, or if there are adult contemporary artist anymore. If not its a great lose. You loose the great work from a mature artist that has seen his hope for the future dashed and is mature enough to articulate it in music form. "
     },
 
 ]
