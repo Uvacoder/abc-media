@@ -284,6 +284,13 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "30991",
+        title: "Cowboy Bebop",
+        poster: "/g05iRzPzWwY2liQ60bvW51lLZHQ.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "128876",
         title: "The Beatles: Get Back",
         poster: "/nxy9fg1rT853P7zP7ZQGqRimiCS.jpg",
