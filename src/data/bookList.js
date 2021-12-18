@@ -50,7 +50,14 @@
         isbn: "9780385308243",
         rating: 4,
         review: ""
+    },
+    {   id: "41",
+        title: "The Pentagon Papers",
+        isbn: "",
+        rating: 4,
+        review: ""
     }
+
 ].reverse()
 
 

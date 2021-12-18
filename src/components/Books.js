@@ -13,7 +13,7 @@ function Books() {
     
    const bookHandshake = handshakeFiveBooks.map((book, index) => (
         <div className="bookHandshake"  key={book.id} style={filterSet(book, handshakeReview)}>
-            <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <img src={book.isbn.length !== 0 ? `https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg` : '../bookCover.png'} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
@@ -35,7 +35,7 @@ function Books() {
 
     const nowReading = booksReading.slice(0, booksReadingSlice).map((book, index) => (
         <div className="now_reading"    key={book.id} style={filterSet(book, readingReview)}>
-            <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <img src={book.isbn.length !== 0 ? `https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg` : '../bookCover.png'} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
@@ -56,7 +56,7 @@ function Books() {
 
     const recentlyRead = booksRead.slice(0, booksReadSlice).map((book, index) => (
         <div className="recently_read"  key={book.id} style={filterSet(book, readReview)} >
-            <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <img src={book.isbn.length !== 0 ? `https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg` : '../bookCover.png'} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
