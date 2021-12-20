@@ -769,6 +769,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "209112",
+        title: "Batman v Superman: Dawn of Justice",
+        poster: "/5UsK3grJvtQrtzEgqNlDljJW96w.jpg",
+        rating: 3,
+        review: ""
+    },
+    {
         id: "14441",
         title: "Clean and Sober",
         poster: "/hztm5P3iCavyz8MCcIDK3BTVtDO.jpg",
