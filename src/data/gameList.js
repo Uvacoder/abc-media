@@ -7,10 +7,10 @@ const gamesPlaying = [
         review: ""
     },
     {   
-        id: "co1xha",
-        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xha.png",
-        title: "Halo: Reach",
-        rating: 3,
+        id: "co2r2r",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r2r.png",
+        title: "Halo: CE",
+        rating: 4.5,
         review: ""
     },
   
@@ -25,6 +25,13 @@ const gamesPlayed = [
         title: "Halo 5: Guardians",
         rating: 3.5,
         review: "It's Halo, but was it a giant step up from the other games? I'm not sure. There were parts that felt very Call of Duty. Also I always felt like a was just going through different difficulty of waves of enemies and then the level would end. After playing for 20 minutes I could tell you how the last level would play out. As far as the story I really couldn't tell you what it was about. I lost the plot years ago. Vide game stories still haven't got any better."
+    },
+    {   
+        id: "co1xha",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xha.png",
+        title: "Halo: Reach",
+        rating: 3.5,
+        review: "It's a good game and fits well with in the Halo series. Some of the voice work is phoned in. I really do not like the special power that you add, and I think it really takes away from the game. Some of the campaign respawns were weird. I probably would go back and replay it but not as much as the first 3 games."
     },
     
 
