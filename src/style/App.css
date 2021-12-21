@@ -203,7 +203,6 @@ html, body {
   padding: 0 0 0 5px;
   font-size: 1rem;
   color: gold;
-  /* font-weight: 900; */
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -256,8 +255,7 @@ html, body {
 
   .review {
     left: 15%;
-  }
-  
+  } 
 }
 
 
