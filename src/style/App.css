@@ -54,7 +54,7 @@ html, body {
   font-weight: 400;
 }
 
-.currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex {
+.currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex, .music_handshake_flex, .currently_listening_flex, .recently_listening_flex, .games_handshake_flex, .currently_Playing_flex, .recently_Played_flex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +76,7 @@ html, body {
   padding: 1rem 0;
 }
 
-.currently_reading_flex:hover, .book_handshake_flex:hover, .recently_read_flex:hover, .movies_handshake_flex:hover, .currently_watching_flex:hover, .recently_watched_flex:hover, .tv_handshake_flex:hover, .currently_watching_tv_flex:hover, .recently_watched__tv_flex:hover, .music_handshake_flex:hover, .currently_listening_flex:hover, .recently_listening_flex:hover {
+.currently_reading_flex:hover, .book_handshake_flex:hover, .recently_read_flex:hover, .movies_handshake_flex:hover, .currently_watching_flex:hover, .recently_watched_flex:hover, .tv_handshake_flex:hover, .currently_watching_tv_flex:hover, .recently_watched__tv_flex:hover, .music_handshake_flex:hover, .currently_listening_flex:hover, .recently_listening_flex:hover, .games_handshake_flex:hover, .currently_Playing_flex:hover, .recently_Played_flex:hover  {
   background-color: rgba(15, 15, 15, .95);
 }
 

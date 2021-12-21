@@ -81,12 +81,12 @@ function Games() {
             <h1 className="section_title" id="games"   style={dimmer}><span className="section_title_icon" >
                 <GameIcon />
                 </span>Games</h1>
-            <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
-            <div className="book_handshake_flex">
+            <h2 className="sub_section_title" title="handShakeFiveGames" style={dimmer}>Handshake Five</h2>
+            <div className="games_handshake_flex">
                 {gamesHandshake}
             </div>
-            <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Playing</h2>
-            <div className="currently_reading_flex">
+            <h2 className="sub_section_title" title="currentlyPlaying" style={dimmer}>Currently Playing</h2>
+            <div className="currently_Playing_flex">
                 {nowPlaying}
                 <div className="slice_toggle" style={{display: nowPlaying.length > 10 ? "" : "none"}} >
                     <span className="toggle_arrow" >
@@ -102,8 +102,8 @@ function Games() {
                     </span>
                 </div>
             </div>
-            <h2 className="sub_section_title"  title="recentlyRead" style={{dimmer, display: recentlyPlayed.length === 0 ? 'none' : ''}} >Recently Played</h2>
-            <div className="recently_read_flex" style={{display: recentlyPlayed.length === 0 ? 'none' : ''}}>
+            <h2 className="sub_section_title"  title="recentlyPlayed" style={{dimmer, display: recentlyPlayed.length === 0 ? 'none' : ''}} >Recently Played</h2>
+            <div className="recently_Played_flex" style={{display: recentlyPlayed.length === 0 ? 'none' : ''}}>
                 {recentlyPlayed}
                 <div className="slice_toggle" style={{display: recentlyPlayed.length > 10 ? "" : "none"}}>
                     <span className="toggle_arrow" >
