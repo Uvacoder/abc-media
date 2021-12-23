@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "209112",
+        title: "Batman v Superman: Dawn of Justice",
+        poster: "/5UsK3grJvtQrtzEgqNlDljJW96w.jpg",
+        rating: 3.5,
+        review: "I was lead to believe that this movie was trash. In fairness I am watching it years later and it's a 3 hour version of the film, but still. The movie takes two of the biggest stories in the history of Dc, Dark Knight returns and Death of Superman and melds them into one movie all while trying to set up the Justice League. The Dark Knight returns is along with Watchmen one of the most groundbreaking series of all time. It lead to the creation of the imprint Elseworlds. Ironically enough Elseworlds was killed toward the start of the Warner tenure. This movie and many of the DC films and back catalog would play much better under an Elseworlds banner. The Death of Superman wasn't nearly as critically acclaimed, but did sell millions of copies of each floppy. I found the 3 hour version of this film very entertaining and highly watchable. I thought that the casting was top notch. I really liked using real world talking heads which is a call back to DKR. I'm not really sure what there is to complain about other than the fact that the follow up to this seems to have been squandered. "
+    },
+    {
         id: "4909",
         title: "The Day of the Jackal",
         poster: "/ddaoTE6ZSRHNnAHNDighdpRW1PZ.jpg",
@@ -768,13 +775,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "209112",
-        title: "Batman v Superman: Dawn of Justice",
-        poster: "/5UsK3grJvtQrtzEgqNlDljJW96w.jpg",
-        rating: 3,
-        review: ""
-    },
     {
         id: "14441",
         title: "Clean and Sober",
