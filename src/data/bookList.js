@@ -1,4 +1,10 @@
  const booksReading = [
+    {   id: "41",
+        title: "Meet Me in the Bathroom",
+        isbn: "9780062233103",
+        rating: 3.5,
+        review: ""
+    },
     {   id: "21",
         title: "Neuromancer",
         isbn: "0441012035",
@@ -20,11 +26,11 @@
         review: ""
     },
     {   
-        id: "27",
-        title: "Heir to the Empire",
-        isbn: "9780606107211",
-        rating: 4,
-        review: "Not the biggest Star Wars fan but after watching the Mandalorian, I pick this up. This is a really fun read. I can't put it down.  "
+        id: "29",
+        title: "Dark Force Rising",
+        isbn: "9780785792918",
+        rating: 3.5,
+        review: ""
     },
     {   
         id: "28",
@@ -32,12 +38,93 @@
         isbn: "9780300120486",
         rating: 4,
         review: ""
+    },
+    {   id: "38",
+        title: "Powerhouse",
+        isbn: "9780062441386",
+        rating: 4,
+        review: ""
+    },
+    {   id: "40",
+        title: "The Devil's Candy",
+        isbn: "9780385308243",
+        rating: 4,
+        review: ""
+    },
+    {   id: "41",
+        title: "The Pentagon Papers",
+        isbn: "",
+        rating: 4,
+        review: ""
     }
+
 ].reverse()
 
 
 
 const booksRead = [
+    {   id: "39",
+        title: "Den of Thieves",
+        isbn: "9780671638023",
+        rating: 4.5,
+        review: "Pairs well with Barbarians at the Gate with a lot of the same people and firms. The book is another example of how the crooks are always ahead of the regulators. People like Milken, Boesky and Levine knew they were breaking the law, they just knew that the penalty would nowhere match the riches. A decade and a half letter junk bonds would be replaced with junk mortgages. Theres a kernel of a fresh new idea and a wunderkind that allows the scheme to grow and take root. On one hand it's frustrating that the individuals get off so lightly. However now it seems that the companies they work for are destroyed. You would think that at the higher levels of a company the leadership would learn this lesson, but the reward is to great to pass up."
+    },
+    {   id: "37",
+        title: "Barbarians at the Gate",
+        isbn: "0060920386",
+        rating: 5,
+        review: "Easily one of the best books I've ever read. There is a reason that this book is so highly regarded. Even though most of the financial manuevers and people have been lost in the sands of time the book at its core is a thrill ride. The founding of RJR is as fascinating as the main drive of the story. Even when it seems to be over, it has only begun."
+    },
+    {   id: "31",
+        title: "Easy Riders, Raging Bulls",
+        isbn: "9780684857084",
+        rating: 4.5,
+        review: "It ends on kind of a downbeat. However as the decades have passed and the current content has been so poor, this era and its failures have become greater. The movies of the seventies are more influential than any other decade in movies. In so much as movie have vision other than to churn out quantity, its the stories or images of that decade that find its way subtly in to film or tv now. Movie are in a bad way right now and there are no strong leaders who can cut through the double speak that shows up in the entertainment media. But perhaps the future is in the past."
+    },
+    {   id: "36",
+        title: "Disney War",
+        isbn: "9780743267090",
+        rating: 5,
+        review: "Of the entertainment books I've been reading, Disney War is the best. In an industry where projects fail as much as they succeed and for reasons that are only apparent in hindsight, Michael Eisners tenure at  Disney has to be judged as somewhat of a failure. So much money was wasted cleaning up his mistakes, and yet his unwillingness not to entertain AOL in merger talks was a company saving decision. "
+    },
+    {   id: "35",
+        title: "The Men Who Would Be King",
+        isbn: "9780547134703",
+        rating: 4.5,
+        review: "A great Hollywood book filled with a lot of nuts and bolts. Did you know Spielberg made $175 million on Men In Black for basically just adding his name to the project. This though is really a Jeffrey Katzenberg story as much as it's the story of Dreamworks. Yes, Geffen and Spielberg are equal part of this book and of Dreamworks, you could argue that Dreamworks was founded to give Katzenberg the role he lost out on at Disney. Another book that shows that there is no secret formula and that 'Nobody knows anything.'"
+    },
+
+     {   id: "34",
+        title: "Down and Dirty Pictures",
+        isbn: "0684862581",
+        rating: 4,
+        review: "The Weinstein's were bullies and monsters and Robert Redford was a passive aggressive slow footed leader. The entertainment industry builds marble statues of people that don't deserve it and when those leaders fall and they start smashing the statue's nose the blame the audience for paying for the marble. It's very telling that the people that dared stand up to Harvey remained close and everyone else was a speed bump. People leaving good jobs to help Redford build and empire that he really wasn't ever going to get off the ground, it's one in the same. 'Nobody knows anything.' The industry is a series of competing ant colonies acting as if there is a magic formula to it all other than make the Queen rich. I suspect currently we are in an era that will be ripe for a new Biskind book as the movie industry turns into a content industry, preferring content and consumption to quality and praise."
+    },
+    {   id: "33",
+        title: "I Want My MTV",
+        isbn: "9780525952305",
+        rating: 3.5,
+        review: "When I started the book its stated that it covered 1981-1991 and I wondered about the years following, but the fact is that those ten years is about all you need to know about Mtv. It's funny that things in culture go from idea to iconic so quickly and when people start to recognize it as iconic it's already on the way down. The Mtv from 1995 to now is just a husk. I'm quite sure it makes a lot of money, more than ever. But would anybody miss it if it went off the air tomorrow? Sure the it would get a couple days of the new cycle and a nice obituary. But it's long since past. Sure in late 90's people wished they played more videos but anyone saying that today is being disingenuous. Personally the first ten years were electric. But after the deaths of Cobain, Tupac and Biggie the channel wandered. It's a ghost ship now, but I'm sure someone will let you pay $15 a month to lick the bones."
+    },
+    {   id: "32",
+        title: "The End Is Always Near",
+        isbn: "9780062868046",
+        rating: 3.5,
+        review: "If you've listened to the Hardcore History podcast then there is really nothing new in this book. However it's still a good read and acts as a spine of the podcast as a whole. A good first effort."
+    },
+    {   id: "30",
+        title: "Once Upon a Time in Hollywood",
+        isbn: "9780063112520",
+        rating: 4.5,
+        review: "If you only watch the movie or only read the book then you will only get half of the story. The book answers a lot of question and back fills story while never really stepping on the movies toes."
+    },
+    {   
+        id: "27",
+        title: "Heir to the Empire",
+        isbn: "9780606107211",
+        rating: 4,
+        review: "A really enjoyable read. You start with a big idea: Why did the empire fall apart so fast after the Emperors death? Add a great powerful and unstoppable villain. Its not hard and yet today media companies would rather give you shades of gray than good versus evil. Congrats, you read Watchmen and Dark Knight Returns. The reason those stood out in 1986 was because they were counter to the mainstream comics. Everyday life is shades of gray and current creators are not Moore and Miller."
+    },
     {   
         id: "26",
         title: "Guns, germs, and steel",
@@ -180,12 +267,11 @@ const handshakeFiveBooks = [
         rating: 4.5,
         review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's. There are part's of this book as far as the job that are scene's from my real life."
     },
-    {   
-        id: "3",
-        title: "The Bonfire of the Vanities",
-        isbn: "9780553381344",
-        rating: 4.5,
-        review: " When Sherman McCoy is with his mistress he hit's and kill someone. The story of politics and the media and how they effect justice. This book is more relevant today than it was then."
+    {   id: "3799",
+        title: "Barbarians at the Gate",
+        isbn: "0060920386",
+        rating: 5,
+        review: "Easily one of the best books I've ever read. There is a reason that this book is so highly regarded. Even though most of the financial manuevers and people have been lost in the sands of time the book at its core is a thrill ride. The founding of RJR is as fascinating as the main drive of the story. Even when it seems to be over, it has only begun."
     },
     {   
         id: "4",

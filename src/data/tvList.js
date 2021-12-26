@@ -1,5 +1,26 @@
 const tvWatched = [
     {
+        id: "93405",
+        title: "Squid Game",
+        poster: "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+        rating: 4,
+        review: "Squid Game was a really good show that benefits from the lack of any quality television coming out. Part Battle Royale, part Willy Wonka. The dubbing was actually well done for once. It was all around a high quality production. But there are certainly parts that wouldn't hold up to scrutiny and plot lines that the show could have done without. I think that the dialogue of the rich people was down right horrible and the very definition of an exposition dump. I didn't mind the ending even though it seemed tacked on."
+    },
+    {
+        id: "1908",
+        title: "Miami Vice",
+        poster: "/6psPEKu03UCiLqBxzeSy7wRQOVN.jpg",
+        rating: 4.5,
+        review: "You would think that it would be dated, it somewhat was when I was watching it in syndication in the 90's. But as time has gone on it has become distinct. Vice starts with on of the greatest pilot episodes ever and only starts to fall of in about the fourth season. Much like all network show you could trim about 4 episodes from every season. The come in late and leave early storytelling is sadly lacking today. There are probably 20 episodes that are great as just standalone stories. The boxing episode is one of the biggest gut punches up until Law and Order lost a ADA."
+    },
+    {
+        id: "42154",
+        title: "World War II In HD Colour",
+        poster: "/1in5DbN4t8a7Osw9hCqWEmNoEZF.jpg",
+        rating: 4,
+        review: "The series hits all the necessary beats and is relatively centered. Some of the color looks amazing but some of it looks down right awful. My real criticism comes from the over use of the same footage. During the first ten episodes you believe that what you are seeing is from that exact moment, but during the last few episodes the footage is reused and over used casting doubt to the origin and time frame of the images."
+    },
+    {
         id: "79525",
         title: "The Last Dance",
         poster: "/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
@@ -263,9 +284,37 @@ const tvWatched = [
 
 const tvWatching = [
     {
-        id: "1908",
-        title: "Miami Vice",
-        poster: "/6psPEKu03UCiLqBxzeSy7wRQOVN.jpg",
+        id: "30991",
+        title: "Cowboy Bebop",
+        poster: "/g05iRzPzWwY2liQ60bvW51lLZHQ.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "128876",
+        title: "The Beatles: Get Back",
+        poster: "/nxy9fg1rT853P7zP7ZQGqRimiCS.jpg",
+        rating: 4.5,
+        review: "Isn't funny how anytime a great director creates a documentary they turn out great and we hardly see the hand of the director?"
+    },
+    {
+        id: "57243",
+        title: "Doctor Who",
+        poster: "/sz4zF5z9zyFh8Z6g5IQPNq91cI7.jpg",
+        rating: 4,
+        review: "I only watched up season 7 last time and I'll stop at the same point this time. No show should go longer than seven seasons and most should not go past four. The show would be better on a Columbia schedule rather then a set episode count. "
+    },
+    {
+        id: "655",
+        title: "Star Trek: The Next Generation",
+        poster: "/m8Jp435AhUBmltmPyP5LOYjc80V.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "873",
+        title: "Columbo",
+        poster: "/2JCD8vab3fircOU8cM2HJCxfv4I.jpg",
         rating: 4,
         review: ""
     },

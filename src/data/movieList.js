@@ -1,5 +1,152 @@
 const moviesWatched = [
     {
+        id: "209112",
+        title: "Batman v Superman: Dawn of Justice",
+        poster: "/5UsK3grJvtQrtzEgqNlDljJW96w.jpg",
+        rating: 3.5,
+        review: "I was lead to believe that this movie was trash. In fairness I am watching it years later and it's a 3 hour version of the film, but still. The movie takes two of the biggest stories in the history of Dc, Dark Knight returns and Death of Superman and melds them into one movie all while trying to set up the Justice League. The Dark Knight returns is along with Watchmen one of the most groundbreaking series of all time. It lead to the creation of the imprint Elseworlds. Ironically enough Elseworlds was killed toward the start of the Warner tenure. This movie and many of the DC films and back catalog would play much better under an Elseworlds banner. The Death of Superman wasn't nearly as critically acclaimed, but did sell millions of copies of each floppy. I found the 3 hour version of this film very entertaining and highly watchable. I thought that the casting was top notch. I really liked using real world talking heads which is a call back to DKR. I'm not really sure what there is to complain about other than the fact that the follow up to this seems to have been squandered. "
+    },
+    {
+        id: "4909",
+        title: "The Day of the Jackal",
+        poster: "/ddaoTE6ZSRHNnAHNDighdpRW1PZ.jpg",
+        rating: 5,
+        review: "Pairs well with JFK as they're contemporary. Every time I watch it it get better and better. Edward Fox is perfect as the Jackal but Lebel steals the entire movie. This movie was remade as a bad but fun movie in the 90's, if it was remade today... well I can only imagine the ham-handedness. This movie only comes around the streaming services once a year so if you get a chance - see it."
+    },
+    {
+        id: "20676",
+        title: "Deep Cover",
+        poster: "/gqGigHYIwLkeUm5cSZdgr7gth5c.jpg",
+        rating: 4,
+        review: "Deep Cover is a very good movie. Fishburne and Goldblum are tremendous as dealers. Seeing it in 2021 instead of on TV in the 90's, the major difference is how clean and clear the picture is. Its such a tight movie time wise that it almost becomes a negative in the change of the characters. In a lot of the ways a movie like King Of New York stumbles, Deep Cover succeeds. Two problems I had with the movie were: the beginning jump cuts and the intro that gave me the feeling of sea sickness. They were inconsistent with the rest of the movie. Secondly I thought the Tom Clancy type ending was a little much."
+    },
+    {
+        id: "10890,",
+        title: "Stripes",
+        poster: "/vP8tPOgmJSNOh4bpOv1bFjid3rZ.jpg",
+        rating: 3.5,
+        review: "I've seen this movie a lot, be each time I watch it 2 things become clearer. First the movie should have ended at the Commencement. The last 20 minutes are really not good. But thats a problem with most comedies though. Secondly, Harold Ramis is the start of this movie. The best laughs are from him. Just him in the background goofing on the other solders is a riot. In the end though Stripes is best watched if you stop watching at about the 90 minute mark."
+    },
+    {
+        id: "814",
+        title: "An American Werewolf in London",
+        poster: "/hN333m776qWYnbjTTcykwClYNgx.jpg",
+        rating: 4,
+        review: "It's pretty sad that a 40 year old film has better special effects than most movies coming out today. The make-up is better than anything that a computer can create. The scene with Griffin Dunne in the hospital is incredible. The movie really zips by and mixes comedy and horror perfectly."
+    },
+    {
+        id: "11018",
+        title: "Year of the Dragon",
+        poster: "/jdnGXZE2Ty2OcRGFwDZRpglODrp.jpg",
+        rating: 3.5,
+        review: "The first two third of this movie are a bit of a slog. The sound mixing is off and I had to use closed captions for some of it. A lot of the shots are beautiful but there seems like there are a few scenes missing. When the last third of the movie kicks in, and you'll know when it happens - the movie is a rocket ship."
+    },
+    {
+        id: "34813",
+        title: "The Losers",
+        poster: "/e5oD3fuQpjZ8Po6WNW0VkUJmW52.jpg",
+        rating: 2,
+        review: "It's everything thats wrong with modern movies. The bad jokes, the plot holes, exposition dumps etc... But at least its short. Today the movie would be 2 1/2 hours long. This exists. It's hard to explain how big the comic was at the time though. It was one of the big titles of the last great age of comics."
+    },
+    {
+        id: "513310",
+        title: "Boss Level",
+        poster: "/i6QFXv4lZyxRMknH0EDkCIz02XP.jpg",
+        rating: 3,
+        review: "Obviously it's not as great as Groundhog Day or as good as Edge of Tomorrow, but it's a fun little movie. The soundtrack is good and not overused. The ending worked for me, the whole movie had show us what was to happen and we didn't need to see it again. "
+    },
+    {
+        id: "9008",
+        title: "The Insider",
+        poster: "/w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
+        rating: 4,
+        review: "A movie a that Michael Eisner tried to burry. It really should have been better supported by the studio because it's Michael Mann making a less stylized thriller, more of a grown up movie. The scene with everyone yelling in the newsroom as the tension rises is probably the highlight. Pacino on the beach in the dark though is a classic Mann shot. You believe that Crowe has a temper and could snap at any moment. It might not be a top 5 Mann movie, but it would be a top movie for all but a few directors. "
+    },
+    {
+        id: "12560",
+        title: "The Big Chill",
+        poster: "/rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg",
+        rating: 4,
+        review: "I don't get the that hate that I see sometimes for this movie. It's a really good movie about a group of Yippies reuniting after one of their friends suicide. It has one of the best cast and an almost too on the nose soundtrack. Perhaps if my generation had one ounce of self reflection they'd be able to relate to this movie, because it is a timeless theme. Kline accent is not good though."
+    },
+    {
+        id: "14761",
+        title: "Cocaine Cowboys",
+        poster: "/hkU1V6DBJoCUxi3xVHiI0OI38oN.jpg",
+        rating: 3,
+        review: "I should've watched this when it first came out 15 years ago. I happen to be watching Miami Vice all the way through again and Vice is less dated than this movie. The colors and sound mix are off. Luckily unlike most docs today, the hand of the creator isn't all over it. I might check out the new series on Netflix."
+    },
+    {
+        id: "32042",
+        title: "Night Moves",
+        poster: "/o6ZYabmfGPiuyTyUEXDsZOq90mR.jpg",
+        rating: 4,
+        review: "Like every Neo-Noir film, this wasn't a hit. It's also a movie that only pops up on streaming a few time a year. So when I happen to see it I always watch it before it disappears. Every time I rewatch the movie it becomes more about the character and less about the story and the great ending.  Could've been called No One Gets Out Alive even though thats not true. It's all here: private eye, L.A. and murder but in the New Hollywood style that only became appreciated after the fact. Whats really interesting to me is that all the characters are in transition, unlike most movies where almost all the characters are stagnant. I can't wait to watch it again when it pops up."
+    },
+    {
+        id: "436969",
+        title: "The Suicide Squad",
+        poster: "/lSEr1nphZuCqXli3VziIgCI8Ivf.jpg",
+        rating: 3,
+        review: "On one hand this is a decent comic book movie, on the other hand why should I care? Not why should I care about The Suicide Squad, but rather why should I care about any superhero movie? At first it was cool to see comic characters and parts of story arcs from the comics on screen. But now comics movies are on rail rollercoaster rides that go nowhere and say nothing. There was a time when video games wanted to be movies, but now movies want to be video games. The Squad did a hell of a lot of platform jumping, and anyone who saw last years Rick and Morty episode new exactly what the javelin was for. There were parts of the movie that were funny, at least funnier than the Marvel movies have been. Just remember, don't think too hard and ..... consume consume consume."
+    },
+    {
+        id: "13809",
+        title: "RockNRolla",
+        poster: "/i7eyngqjdvKB7NvrWtCjjTNNq8N.jpg",
+        rating: 3,
+        review: "Like all Guy Ritchie movies it's very watchable. But it its a middling Ritchie movie. I don't know that there is one scene that I'll remember after a couple of days. A lot happens off screen and thats fine but what happens on screen is any thing spectacular."
+    },
+    {
+        id: "22828",
+        title: "Homicide",
+        poster: "/eTfz8CTaHkYFCccZt6p6iop2e6U.jpg",
+        rating: 3.5,
+        review: "When I rewatched this movie this time it really flew by. Mostly because of Mamet's dialog. The problem I have this time watching it is that Gold wanting to help so baldly happens way too quickly. He's been played from almost the beginning but unlike House of Games it's missing a romance or something to bait him into the trap. Still a good movie with a great cast."
+    },
+    {
+        id: "11507",
+        title: "Body Double",
+        poster: "/lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
+        rating: 2.5,
+        review: "There are some really nice set pieces and everyone knows the drill scene but it doesn't add up to a good movie. I wish I liked this movie more, I think there are parts that are very rewatchable but as a whole it's a lesser De Palma movie."
+    },
+    {
+        id: "20858",
+        title: "8 Million Ways to Die",
+        poster: "/xSvEwTz6nrZVEoyrajdKxLB0oVl.jpg",
+        rating: 2.5,
+        review: "There are some reason nice scenes but theres also almost no setup. I have no problem filling in the negative space of a movie on my own but this movie doesn't even give you a line. A battle between Ashby and the Studio supposedly ruined this movie. It's very likely that this was on track to be a neo noir classic but as is its more a waste of actors in their prime."
+    },
+    {
+        id: "11454",
+        title: "The Manhunter",
+        poster: "/n1FQNiMi00Rq85771JQHUINafCC.jpg",
+        rating: 4,
+        review: "Very stylized like all of Mann's movies but a really good movie. Sometimes he can over do it with the music and that only happens during the final credits. Peterson is great in this and in the now almost impossible to find To Live and Die in LA. Tom Noonan is extra creeping as the main villian."
+    },
+    {
+        id: "9386",
+        title: "In The Line of Fire",
+        poster: "/3NvOFpmyECI3DNExYMtFIRcGMsu.jpg",
+        rating: 4.5,
+        review: "I could watch this movie everyday for the rest of my life and still enjoy it. When it came out, I practically did. It has one of the greatest villains of all time against one of movies greatest hero actors. Beside that, what really make the movie great is that it combines the best parts of movies like The Day of the Jackal and mixes it with JFK conspiracy theory but trims off all the fat. There is also a few subtle nods to Casablanca that I've only recently noticed."
+    },
+    {
+        id: "1627",
+        title: "Career Opportunities",
+        poster: "/3LoVEXCgVion883GgBHTeTkJi1F.jpg",
+        rating: 2,
+        review: "This could've been a John Hughes classic, but it on the lower end of his movies. The movie could use another 20 minutes of scenes to fill in what feels like a very rushed movie. Everything with the robbers is just plain bad. Perhaps if Joe Pesci and Daniel Stern came in as the robbers it would have been a little better but how do they just walk right into a Target at night? The John Candy scene was the best part."
+    },
+    {
+        id: "60308",
+        title: "Moneyball",
+        poster: "/4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg",
+        rating: 4,
+        review: "Moneyball is a very rewatchable movie that glides from scene to scene. It's as good as the book it's based and there is some really great casting. The real problem with Moneyball though is that it has spread to all sports and intrenched it followers in front offices across leagues. In an attempt to become the next Peter Brand, everybody creates new pseudostats that are guaranteed to help you find the next great team. These stats then spread to all teams and alter the play of the games. Brad Pitt not watching games isn't a quirk of Billy Beane, it's a tenet of Sabermetrics. You need only look that the advanced analytics to see what happened in the game. Day to day gameplay has become unwatchable and the each sport has morphed into an almost yearly race to alter the sport to target the next hip stat. "
+    },
+    {
         id: "26983",
         title: "Odds Against Tomorrow",
         poster: "/3odDtAnFb9vjhF3EORVhHN5ewb1.jpg",
@@ -628,6 +775,34 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
+    {
+        id: "14441",
+        title: "Clean and Sober",
+        poster: "/hztm5P3iCavyz8MCcIDK3BTVtDO.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "32040",
+        title: "The Killing of a Chinese Bookie",
+        poster: "/clQgmbmBOxvA2NepvijoL7YUCvr.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "14746",
+        title: "Streets of Fire",
+        poster: "/tmYHBKCZkbmiUfhfOQKgfh0jvXK.jpg",
+        rating: 3,
+        review: ""
+    },
+    {
+        id: "8073",
+        title: "Bande à part",
+        poster: "/9oqyj79xmcypxLajJdefOtrYx64.jpg",
+        rating: 4,
+        review: ""
+    },
     {
         id: "1923",
         title: "Twin Peaks: Fire Walk with Me",

@@ -1,0 +1,33 @@
+
+.iconNav-container {
+    position: fixed;
+    z-index: 99;
+    width: 20%;
+    height: auto;
+    margin: 1.75rem auto 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .iconNav-icon > svg:hover {
+    fill: silver;
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .iconNav-container {
+        left: 2.5%;
+      }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .iconNav-container {
+        width: 40%;
+      }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .iconNav-container {
+        display: none;
+      }
+  }

@@ -1,7 +1,9 @@
 import React, {useState, useContext} from 'react'
 import { handshakeFiveMovies, moviesWatched, moviesWatching } from '../data/movieList'
 import { Context } from '../Context'
-import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+import Tooltip from '@material-ui/core/Tooltip';
+import { MovieIcon } from '../data/svgs'
 
 
  function Movies() {
@@ -81,8 +83,15 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
   
     return (
         <div >
-            <h1 className="section_title" id="movies" style={dimmer}>Movies</h1>
-            <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>
+            <h1 className="section_title" id="movies" style={dimmer}>
+                <span className="section_title_icon" >
+                    <MovieIcon />
+                </span>Movies</h1>
+            <h2 className="sub_section_title" style={dimmer}>Handshake Five
+                <Tooltip className="tool_tip" title="Handshake Five isn’t necessarily my five favorite. But based on those five you should be able to get a good sense of the types of content I’m interested in and I could get a good sense from your five." placement="right">
+                    <HelpOutlineIcon className="help_icon" fontSize={"inherit"} /> 
+                </Tooltip>  
+            </h2>
             <div className="movies_handshake_flex">
                 {handshakeId}
             </div>
@@ -90,16 +99,36 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
             </h2>
             <div className="currently_watching_flex">
                 {nowWatchingMovies}
-                <div className="currently_watching_slice_toggle" >
-                    <span className="currently_watching_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMovieWatchingArrowToggle} className={moviesWatchingSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                <div className="slice_toggle" style={{display: nowWatchingMovies.length > 9 ? "" : "none"}} >
+                    <span className="toggle_arrow" >
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="24" height="24" 
+                            viewBox="0 0 24 24" 
+                            fill="white"
+                            style={{ fontSize: 50 }} onClick={handleMovieWatchingArrowToggle} className={moviesWatchingSlice === 10 ? '' : 'rotate_arrow'} 
+                        >
+                        <path d="M12 21l-12-18h24z" />
+                        </svg>
+                    </span>
                 </div>
             </div>
                 
             <h2 className="sub_section_title" style={dimmer}>Recently Watched</h2>
             <div className="recently_watched_flex">
                 {recentlyWatchedMovies}
-                <div className="recently_watched_slice_toggle" >
-                    <span className="recently_watched_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMovieWatchedArrowToggle} className={moviesWatchedSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                <div className="slice_toggle" style={{display: recentlyWatchedMovies.length > 9 ? "" : "none"}} >
+                    <span className="toggle_arrow" >
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="24" height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="white"
+                        style={{ fontSize: 50 }} onClick={handleMovieWatchedArrowToggle} className={moviesWatchedSlice === 10 ? '' : 'rotate_arrow'}
+                        >
+                        <path d="M12 21l-12-18h24z" />
+                    </svg>
+                    </span>
                 </div>
             </div>
         </div>

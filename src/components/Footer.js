@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import { Context } from '../Context'
+import '../style/Footer.css'
 
 function Footer() {
 

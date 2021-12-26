@@ -84,12 +84,43 @@ function ContextProvider({children}) {
         return booksReadSlice === 10 ? setBooksReadSlice() : setBooksReadSlice(10)
     }
 
+    const [musicListeningSlice, setMusicListeningSlice] = useState(10)
+    const [musicListenedSlice, setMusicListenedSlice] = useState(10)
 
-    
+    function handleMusicListeningArrowToggle() {
+        return musicListeningSlice === 10 ? setMusicListeningSlice() : setMusicListeningSlice(10)
+    }
+
+    function handleMusicListedArrowToggle() {
+        return musicListenedSlice === 10 ? setMusicListenedSlice() : setMusicListenedSlice(10)
+    }
+
+    const [gamesPlayingSlice, setGamesPlayingSlice] = useState(10)
+    const [gamesPlayedSlice, setGamesPlayedSlice] = useState(10)
+
+    function handleGamesPlayingArrowToggle() {
+        return gamesPlayingSlice === 10 ? setGamesPlayingSlice() : setGamesPlayingSlice(10)
+    }
+
+    function handleGamesPlayedToggle() {
+        return gamesPlayedSlice === 10 ? setGamesPlayedSlice() : setGamesPlayedSlice(10)
+    }
+
+
+    const [isNavOpen, setIsNavOpen] = useState(false)
+
+
+    function handleHamburgerClick() {
+        setIsNavOpen(prevState => !prevState)
+    }
+
+    function dropDownNavClick() {
+        setIsNavOpen(false)
+    }
 
 
     return (
-        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer, fullDim, handleMovieWatchingArrowToggle, handleMovieWatchedArrowToggle, moviesWatchingSlice, moviesWatchedSlice, handleTvWatchingArrowToggle, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice, handleBooksReadingArrowToggle, handleBooksReadArrowToggle, booksReadingSlice, booksReadSlice}}>
+        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer, fullDim, handleMovieWatchingArrowToggle, handleMovieWatchedArrowToggle, moviesWatchingSlice, moviesWatchedSlice, handleTvWatchingArrowToggle, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice, handleBooksReadingArrowToggle, handleBooksReadArrowToggle, booksReadingSlice, booksReadSlice, handleHamburgerClick, dropDownNavClick, isNavOpen, handleMusicListeningArrowToggle, handleMusicListedArrowToggle, musicListeningSlice, musicListenedSlice, gamesPlayingSlice, gamesPlayedSlice, handleGamesPlayingArrowToggle, handleGamesPlayedToggle}}>
             {children}
         </Context.Provider>
     )
