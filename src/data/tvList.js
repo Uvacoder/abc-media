@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "128876",
+        title: "The Beatles: Get Back",
+        poster: "/nxy9fg1rT853P7zP7ZQGqRimiCS.jpg",
+        rating: 5,
+        review: "Isn't funny how anytime a great director creates a documentary they turn out great and we hardly see the hand of the director? Anyways, Let It Be is like a bad penny. Every couple of years there is some new content or revision to it. This however is the coda. First the quality of the film is incredible. You can see hairs on the mic. There are points in the film that your forget that your watching a show taped 50 years ago and you feel as though your sitting on an amp besides the band. The power dynamic of the band was clearly on display in this film. After the entire time of Paul not knowing how and if the concert would work, his look when he sees the police and then the extra Get Back to finish it off.... classic."
+    },
+    {
         id: "93405",
         title: "Squid Game",
         poster: "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
@@ -289,13 +296,6 @@ const tvWatching = [
         poster: "/g05iRzPzWwY2liQ60bvW51lLZHQ.jpg",
         rating: 4,
         review: ""
-    },
-    {
-        id: "128876",
-        title: "The Beatles: Get Back",
-        poster: "/nxy9fg1rT853P7zP7ZQGqRimiCS.jpg",
-        rating: 4.5,
-        review: "Isn't funny how anytime a great director creates a documentary they turn out great and we hardly see the hand of the director?"
     },
     {
         id: "57243",
