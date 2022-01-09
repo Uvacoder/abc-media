@@ -13,6 +13,20 @@ const gamesPlaying = [
         rating: 4.5,
         review: ""
     },
+    {   
+        id: "co2dto",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dto.png",
+        title: "Halo: Infinite",
+        rating: 4,
+        review: ""
+    },
+    {   
+        id: "co3wi7",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.png",
+        title: "Star Wars Battlefront II",
+        rating: 3,
+        review: ""
+    },
   
     
 
