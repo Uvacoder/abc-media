@@ -1,8 +1,8 @@
 const comicsReading = [
-    {   id: "",
-        title: "",
-        isbn: "",
-        rating: 3.5,
+    {   id: "9780446389235",
+        title: "Batman: Year One",
+        isbn: "9780446389235",
+        rating: 5,
         review: ""
     },
   
@@ -34,10 +34,10 @@ const handshakeFiveComics = [
         rating: 5,
         review: ""
     },
-    {   id: "",
-        title: "",
-        isbn: "",
-        rating: 3.5,
+    {   id: "9781563891427",
+        title: "Batman: Knightfall",
+        isbn: "9781563891427",
+        rating: 4,
         review: ""
     },
     {   id: "",
