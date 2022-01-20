@@ -22,7 +22,7 @@ function App() {
      <Music />
      <Games />
      <Books />
-     {/* <Comics /> */}
+     <Comics />
      <Footer />
     </div>
   );

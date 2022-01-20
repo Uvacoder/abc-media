@@ -37,11 +37,11 @@ export default function IconNav() {
                 className="iconNav-icon">
                 <BookIcon />
             </a>
-            {/* <a href="#comics" 
+            <a href="#comics" 
                 style={{fill: "white"}} 
                 className="iconNav-icon">
                 <ComicIcon />
-            </a> */}
+            </a>
         </div>
     ) 
 }

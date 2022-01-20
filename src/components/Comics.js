@@ -77,7 +77,7 @@ function Comics() {
    
     return (
         <div>
-            <h1 className="section_title" id="books"   style={dimmer}><span className="section_title_icon" >
+            <h1 className="section_title" id="comics"   style={dimmer}><span className="section_title_icon" >
                 <ComicIcon />
                 </span>Comics</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
@@ -87,8 +87,8 @@ function Comics() {
             <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Reading</h2>
             <div className="currently_reading_flex">
                 {nowReading}
-                <div className="slice_toggle" >
-                    <span className="toggle_arrow" >
+                <div className="slice_toggle" style={{display: nowReading.length < 10 ? 'none' : ''}}>
+                    <span className="toggle_arrow">
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" 
                         width="24" height="24" 
@@ -104,7 +104,7 @@ function Comics() {
             <h2 className="sub_section_title"  title="recentlyRead" style={dimmer}>Recently Read</h2>
             <div className="recently_read_flex">
                 {recentlyRead}
-                <div className="slice_toggle" >
+                <div className="slice_toggle" style={{display: recentlyRead.length < 10 ? 'none' : ''}}>
                     <span className="toggle_arrow" >
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" 
