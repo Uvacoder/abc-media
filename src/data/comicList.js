@@ -46,10 +46,10 @@ const handshakeFiveComics = [
         rating: 4.5,
         review: ""
     },
-    {   id: "",
-        title: "",
-        isbn: "",
-        rating: 3.5,
+    {   id: "9781595823939",
+        title: "Blacksad",
+        isbn: "9781595823939",
+        rating: 4.5,
         review: ""
     },
 
