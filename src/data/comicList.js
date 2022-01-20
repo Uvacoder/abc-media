@@ -1,8 +1,8 @@
 const comicsReading = [
-    {   id: "9780446389235",
-        title: "Batman: Year One",
-        isbn: "9780446389235",
-        rating: 5,
+    {   id: "9781435223110",
+        title: "Batman: The Long Halloween",
+        isbn: "9781435223110",
+        rating: 4.5,
         review: ""
     },
   
@@ -11,10 +11,10 @@ const comicsReading = [
 ].reverse()
 
 const comicsRead = [
-    {   id: "",
-        title: "",
-        isbn: "",
-        rating: 3.5,
+    {   id: "9780446389235",
+        title: "Batman: Year One",
+        isbn: "9780446389235",
+        rating: 4.5,
         review: ""
     },
     
@@ -40,10 +40,10 @@ const handshakeFiveComics = [
         rating: 4,
         review: ""
     },
-    {   id: "",
-        title: "",
-        isbn: "",
-        rating: 3.5,
+    {   id: "1563892618",
+        title: "Preacher",
+        isbn: "1563892618",
+        rating: 4.5,
         review: ""
     },
     {   id: "",
