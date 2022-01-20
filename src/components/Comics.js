@@ -1,9 +1,9 @@
 import React, {useState, useContext} from 'react'
 import {comicsReading, comicsRead, handshakeFiveComics} from '../data/comicList'
 import { Context } from '../Context'
-import {BookIcon} from '../data/svgs'
+import {ComicIcon} from '../data/svgs'
 
-function Books() {
+function Comics() {
 
     const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer, handleComicsReadingArrowToggle, handleComicsReadArrowToggle, comicsReadingSlice, comicsReadSlice} = useContext(Context)
       
@@ -11,7 +11,7 @@ function Books() {
     const [readReview, setReadReview] = useState()
     const [readingReview, setReadingReview] = useState()
     
-   const bookHandshake = handshakeFiveBooks.map((book, index) => (
+   const bookHandshake = handshakeFiveComics.map((book, index) => (
         <div className="bookHandshake"  key={book.id} style={filterSet(book, handshakeReview)}>
             <img src={book.isbn.length !== 0 ? `https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg` : '../bookCover.png'} alt="book covers" className="book" />
             <div  className="word_box">
@@ -19,13 +19,13 @@ function Books() {
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
             { handshakeReview === book.id ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveBooks, handshakeReview, setHandshakeReview)}
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveComics, handshakeReview, setHandshakeReview)}
                 style={{display: book.review === "" ? "none" : ""}}
                 >arrow_drop_up_icon</i>
                 <p className="review" style={{display:  book.review ? "block" : "none"}}>{book.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, handshakeFiveBooks, handshakeReview, setHandshakeReview)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, handshakeFiveComics, handshakeReview, setHandshakeReview)}
                  style={{display: book.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -33,7 +33,7 @@ function Books() {
         </div>
     ))
 
-    const nowReading = booksReading.slice(0, booksReadingSlice).map((book, index) => (
+    const nowReading = comicsReading.slice(0, comicsReadingSlice).map((book, index) => (
         <div className="now_reading"    key={book.id} style={filterSet(book, readingReview)}>
             <img src={book.isbn.length !== 0 ? `https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg` : '../bookCover.png'} alt="book covers" className="book" />
             <div  className="word_box">
@@ -41,12 +41,12 @@ function Books() {
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
              { readingReview === book.id ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, booksReading, readingReview, setReadingReview)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, comicsReading, readingReview, setReadingReview)} 
                 style={{display: book.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  book.review ? "block" : "none"}}>{book.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, booksReading, readingReview, setReadingReview)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, comicsReading, readingReview, setReadingReview)}
                  style={{display: book.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -54,7 +54,7 @@ function Books() {
         </div>
     ))
 
-    const recentlyRead = booksRead.slice(0, booksReadSlice).map((book, index) => (
+    const recentlyRead = comicsRead.slice(0, comicsReadSlice).map((book, index) => (
         <div className="recently_read"  key={book.id} style={filterSet(book, readReview)} >
             <img src={book.isbn.length !== 0 ? `https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg` : '../bookCover.png'} alt="book covers" className="book" />
             <div  className="word_box">
@@ -62,12 +62,12 @@ function Books() {
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
             { readReview === book.id ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, booksRead, readReview, setReadReview)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, comicsRead, readReview, setReadReview)} 
                 style={{display: book.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  book.review ? "block" : "none"}}>{book.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, booksRead, readReview, setReadReview)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, comicsRead, readReview, setReadReview)}
                  style={{display: book.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -78,8 +78,8 @@ function Books() {
     return (
         <div>
             <h1 className="section_title" id="books"   style={dimmer}><span className="section_title_icon" >
-                <BookIcon />
-                </span>Books</h1>
+                <ComicIcon />
+                </span>Comics</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
             <div className="book_handshake_flex">
                 {bookHandshake}
@@ -98,7 +98,7 @@ function Books() {
                         width="24" height="24" 
                         viewBox="0 0 24 24" 
                         fill="white"
-                        style={{ fontSize: 50 }} onClick={handleBooksReadArrowToggle} className={booksReadSlice === 10 ? '' : 'rotate_arrow'}                        
+                        style={{ fontSize: 50 }} onClick={handleComicsReadArrowToggle} className={comicsReadSlice === 10 ? '' : 'rotate_arrow'}                        
                         >
                         <path d="M12 21l-12-18h24z" />
                     </svg>
@@ -109,4 +109,4 @@ function Books() {
     )
 }
 
-export default Books
+export default Comics
