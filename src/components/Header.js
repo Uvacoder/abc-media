@@ -23,6 +23,7 @@ function Header(){
             <a href="#music"  onClick={dropDownNavClick}>Music</a> 
             <a href="#games"  onClick={dropDownNavClick}>Games</a> 
             <a href="#books" className="lastAnchor" onClick={dropDownNavClick}>Books</a> 
+            {/* <a href="#comics" className="lastAnchor" onClick={dropDownNavClick}>Comics</a>  */}
             <div className="blade"></div>
         </nav>
         </div>
