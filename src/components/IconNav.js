@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import { Context } from '../Context'
-import { MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon } from '../data/svgs'
+import { MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon, ComicIcon } from '../data/svgs'
 import '../style/IconNav.css'
 
 
@@ -37,6 +37,11 @@ export default function IconNav() {
                 className="iconNav-icon">
                 <BookIcon />
             </a>
+            {/* <a href="#comics" 
+                style={{fill: "white"}} 
+                className="iconNav-icon">
+                <ComicIcon />
+            </a> */}
         </div>
     ) 
 }
