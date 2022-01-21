@@ -16,7 +16,7 @@ const comicsRead = [
         title: "Batman: Year One",
         isbn: "9780446389235",
         rating: 4.5,
-        review: ""
+        review: "In the late 80's DC had massive continuity problems. Many of their characters had been turned into mantles and storylines became to convoluted. In an effort to streamline, DC launch Crisis on Infinite Earths. While Crisis was going on Frank Miller was the hottest comic creator in the industry and was writing an out of continuity story The Dark knight Returns. Both books would become all time classics and later become crutches for DC. In order to reset Batman's cannon, Miller wrote Batman: Year One with artist David Mazzucchelli. Unlike DKR which sets the foundation for Elseworlds, Year One is the bedrock that the following 20 years sits. It puts Batman, Gordon, Catwoman and Harvey Dent together early in their careers. It has the grit and grim you'd expect from Miller and the excellent Mazzucchelli art. Only only knock on it is that the coloring on the covers isn't really great. Issue one is iconic but the other issues wouldn't have made me buy it off the newsstand."
     },
     
 
