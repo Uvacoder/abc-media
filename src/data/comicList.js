@@ -1,8 +1,14 @@
 const comicsReading = [
-    {   id: "9781435223110",
-        title: "Batman: The Long Halloween",
-        isbn: "9781435223110",
-        rating: 4.5,
+    {   id: "9781401251222",
+        title: "Batman: Dark Victory",
+        isbn: "9781401251222",
+        rating: 4,
+        review: ""
+    },
+    {   id: "9781563898686",
+        title: "Batman: Haunted Knight",
+        isbn: "9781563898686",
+        rating: 3.5,
         review: ""
     },
     
@@ -16,7 +22,13 @@ const comicsRead = [
         title: "Batman: Year One",
         isbn: "9780446389235",
         rating: 4.5,
-        review: "In the late 80's DC had massive continuity problems. Many of their characters had been turned into mantles and storylines became to convoluted. In an effort to streamline, DC launch Crisis on Infinite Earths. While Crisis was going on Frank Miller was the hottest comic creator in the industry and was writing an out of continuity story The Dark knight Returns. Both books would become all time classics and later become crutches for DC. In order to reset Batman's cannon, Miller wrote Batman: Year One with artist David Mazzucchelli. Unlike DKR which sets the foundation for Elseworlds, Year One is the bedrock that the following 20 years sits. It puts Batman, Gordon, Catwoman and Harvey Dent together early in their careers. It has the grit and grim you'd expect from Miller and the excellent Mazzucchelli art. Only only knock on it is that the coloring on the covers isn't really great. Issue one is iconic but the other issues wouldn't have made me buy it off the newsstand."
+        review: "In the late 80's DC had massive continuity problems. Many of their characters had been turned into mantles and storylines became to convoluted. In an effort to streamline, DC launch Crisis on Infinite Earths. While Crisis was going on Frank Miller was the hottest comic creator in the industry and was writing an out of continuity story The Dark knight Returns. Both books would become all time classics and later become crutches for DC. In order to reset Batman's cannon, Miller wrote Batman: Year One with artist David Mazzucchelli. Unlike DKR which sets the foundation for Elseworlds, Year One is the bedrock that the following 20 years sits. It puts Batman, Gordon, Catwoman and Harvey Dent together early in their careers. It has the grit and grim you'd expect from Miller and the excellent Mazzucchelli art. The only knock on it is that the coloring on the covers isn't really great. Issue one is iconic but the other issues wouldn't have made me buy it off the newsstand."
+    },
+    {   id: "9781435223110",
+        title: "Batman: The Long Halloween",
+        isbn: "9781435223110",
+        rating: 4.5,
+        review: "The pairing of Loeb and Sale has created some really great work, mostly in standalone stories. Long Halloween is the best of all of them. Its way better than the rest of their DC books and better than all of the Marvel Color books. Like most mysteries I forgot the whodunit every time I came back and reread it.  Tim Sale villains are still amazing looking even after 25 years. The splash pages in each issue are just incredible. I can only image the price they are going for right now. Its a seminal Batman story that get taken from every time a new movie is written. The only thing is that I don't think that the Godfather references age well."
     },
     
 
