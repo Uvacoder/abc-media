@@ -137,10 +137,11 @@ html, body {
   width: 200px;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 1.5rem auto 1rem auto;
 }
 
 .artist {
-  padding-top: .5rem;
   margin-bottom: -.75rem;
 }
 
