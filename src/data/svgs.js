@@ -54,5 +54,5 @@ function Github() {
     )
 }
 
-export { MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon, ComicIcon }
+export { MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon, ComicIcon, Github, Linkedin }
 
