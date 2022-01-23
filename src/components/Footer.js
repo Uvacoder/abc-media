@@ -16,15 +16,15 @@ function Footer() {
                     className="logo"
                     />
                 </a> 
-                <a href="https://scottjellen.com/" target="_blank" rel="noopener noreferrer" style={{fill: "white"}} className="personalLinks">
+                <a href="https://github.com/SJellen" target="_blank" rel="noopener noreferrer" style={{fill: "white"}} className="iconNav-icon">
                     <Github />
                 </a> 
-                <a href="https://scottjellen.com/" target="_blank" rel="noopener noreferrer" style={{fill: "white"}} className="personalLinks">
+                <a href="https://www.linkedin.com/in/scottjellen" target="_blank" rel="noopener noreferrer" style={{fill: "white"}} className="iconNav-icon">
                     <Linkedin />
                 </a>
             </div>
             
-                <h1 className="copy_footer">Scott Jellen  &#169; 2020 - 22</h1>
+                <h1 className="copy_footer">S Jellen  &#169; 2020-22</h1>
             </div>
     )
 }
