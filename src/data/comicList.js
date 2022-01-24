@@ -1,16 +1,17 @@
 const comicsReading = [
-    {   id: "9781401251222",
-        title: "Batman: Dark Victory",
-        isbn: "9781401251222",
-        rating: 4,
-        review: ""
-    },
     {   id: "9781563898686",
-        title: "Batman: Haunted Knight",
+        title: "Batman: Dark Victory",
         isbn: "9781563898686",
         rating: 3.5,
         review: ""
     },
+    {   id: "9781401225766",
+        title: "Batman: R.I.P.",
+        isbn: "9781401225766",
+        rating: 4,
+        review: ""
+    },
+    
     
   
     
@@ -29,6 +30,12 @@ const comicsRead = [
         isbn: "9781435223110",
         rating: 4.5,
         review: "The pairing of Loeb and Sale has created some really great work, mostly in standalone stories. Long Halloween is the best of all of them. Its way better than the rest of their DC books and better than all of the Marvel Color books. Like most mysteries I forgot the whodunit every time I came back and reread it.  Tim Sale villains are still amazing looking even after 25 years. The splash pages in each issue are just incredible. I can only image the price they are going for right now. Its a seminal Batman story that get taken from every time a new movie is written. The only thing is that I don't think that the Godfather references age well."
+    },
+    {   id: "9781401251222",
+        title: "Batman: Haunted Knight",
+        isbn: "9781401251222",
+        rating: 3,
+        review: "Haunted Knight is a collection of 3 double sized annuals that each came out around Halloween. It directly led to Long Halloween being launched as a standalone series. Story one is about the Scarecrow and a women who kills her husbands. The second story is about Commissioner Gordon's adopted daughter and the Mad Hatter. The third is sort of a Christmas Carol involving Lucius Fox and Poison Ivy. I though all three stories were good not great and the art was uneven. But I am comparing it to one of the great Batman stories of all time and it is in one of the best Batman series in terms of quality. To put it another way, its not the type of box that if I were buying collected editions that I would need to get an Absolute Edition or a library quality version. Those versions probably have much better coloring than the versions I have read over the years. "
     },
     
 
