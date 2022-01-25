@@ -11,6 +11,18 @@ const comicsReading = [
         rating: 4,
         review: ""
     },
+    {   id: "9780930289386",
+        title: "The Longbow Hunters",
+        isbn: "9780930289386",
+        rating: 4,
+        review: ""
+    },
+    {   id: "9781401235116",
+        title: "Final Crisis",
+        isbn: "9781401235116",
+        rating: 4,
+        review: ""
+    },
     
     
   

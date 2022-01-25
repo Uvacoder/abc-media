@@ -27,6 +27,13 @@ const gamesPlaying = [
         rating: 3,
         review: ""
     },
+    {   
+        id: "co4d8o",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4d8o.png",
+        title: "Hitman Trilogy",
+        rating: 4,
+        review: ""
+    },
   
     
 
