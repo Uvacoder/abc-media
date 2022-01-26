@@ -64,7 +64,7 @@ const handshakeFiveComics = [
         title: "The Dark Knight Returns",
         isbn: "9780613536707",
         rating: 5,
-        review: ""
+        review: "In 1986 two books completely rocked the comics industry. Watchmen and The Dark Knight Returns. Of all the different ways that they transformed the industry, one is the way they have popularized the trade paperback. Or more importantly creating stories to fit the trade format. DKR is basically created the Elseworlds imprint. It allowed writers and more importantly readers to enjoy a story sans continuity, something that the DCEU would benefit greatly from.  DKR is Frank Miller at the top of his game using all his tricks. What I don''t know is if we really needed to keep going back to this well 2 more times. But the same could be said for Watchmen. "
     },
     {   id: "9781563891427",
         title: "Batman: Knightfall",

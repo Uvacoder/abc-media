@@ -3,7 +3,7 @@ const gamesPlaying = [
         id: "co3ofx",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ofx.png",
         title: "Forza Horizon 5",
-        rating: 3,
+        rating: 3.5,
         review: ""
     },
     {   
