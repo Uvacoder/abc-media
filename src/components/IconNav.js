@@ -3,7 +3,6 @@ import { Context } from '../Context'
 import { MovieIcon, TVIcon, MusicIcon, GameIcon, BookIcon, ComicIcon } from '../data/svgs'
 import '../style/IconNav.css'
 
-
 export default function IconNav() {
 
     const {fullDim} = useContext(Context)

@@ -38,7 +38,7 @@ function Comics() {
             <img src={book.isbn.length !== 0 ? `https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg` : '../bookCover.png'} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
+            {/* <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
              { readingReview === book.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, comicsReading, readingReview, setReadingReview)} 
@@ -49,7 +49,7 @@ function Comics() {
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, comicsReading, readingReview, setReadingReview)}
                  style={{display: book.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
-            }
+            } */}
             </div>    
         </div>
     ))

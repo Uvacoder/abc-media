@@ -39,7 +39,7 @@ function Games() {
             <img src={`${game.cover}`} alt="album cover" className="music" />
             <div  className="word_box">
             <h4 className="title" >{game.title}</h4>
-            <span className="star-container" ><h4 className="star">{ fullStarMaker(game.rating)}</h4><h4 className="half-star">{halfStarMaker(game.rating)}</h4></span>
+            {/* <span className="star-container" ><h4 className="star">{ fullStarMaker(game.rating)}</h4><h4 className="half-star">{halfStarMaker(game.rating)}</h4></span>
              { playingReview === game.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, gamesPlaying, playingReview, setPlayingReview)} 
@@ -50,7 +50,7 @@ function Games() {
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, gamesPlaying, playingReview, setPlayingReview)}
                  style={{display: game.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
-            }
+            } */}
             </div>    
         </div>
     ))

@@ -5,7 +5,6 @@ import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import Tooltip from '@material-ui/core/Tooltip';
 import { MovieIcon } from '../data/svgs'
 
-
  function Movies() {
 
     const {fullStarMaker, halfStarMaker, reviewToggle,filterSet, dimmer, handleMovieWatchingArrowToggle, handleMovieWatchedArrowToggle, moviesWatchingSlice, moviesWatchedSlice} = useContext(Context)
@@ -14,8 +13,6 @@ import { MovieIcon } from '../data/svgs'
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
     
-
-       
     const handshakeId = handshakeFiveMovies.map((movie, index) => (
         <div className="movieHandshake"  key={movie.id} style={filterSet(movie, handshakeReview)}>
             <img src={`https://image.tmdb.org/t/p/w200${movie.poster}`} alt="movie posters" className="movie" />
@@ -43,7 +40,7 @@ import { MovieIcon } from '../data/svgs'
             <img src={`https://image.tmdb.org/t/p/w200${movie.poster}`} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
+            {/* <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { watchingReview === movie.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, moviesWatching, watchingReview, setWatchingReview)} 
@@ -54,11 +51,10 @@ import { MovieIcon } from '../data/svgs'
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, moviesWatching, watchingReview, setWatchingReview)}
                  style={{display: movie.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
-            }
+            } */}
             </div>    
         </div>
     ))
-
 
     const recentlyWatchedMovies = moviesWatched.slice(0, moviesWatchedSlice).map((movie, index) => (
         <div className="recently_watched_movies"  key={movie.id}  style={filterSet(movie, watchedReview)}>

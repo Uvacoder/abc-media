@@ -23,7 +23,6 @@ function Footer() {
                     <Linkedin />
                 </a>
             </div>
-            
                 <h1 className="copy_footer">S Jellen  &#169; 2020-22</h1>
             </div>
     )

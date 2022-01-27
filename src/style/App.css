@@ -146,7 +146,7 @@ html, body {
 }
 
 .word_box {
-  height: 50px;
+  height: auto;
   margin-top: 0rem;
   margin-bottom: 2rem;
   width: auto;

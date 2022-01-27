@@ -38,7 +38,7 @@ function Tv() {
              <img src={`https://image.tmdb.org/t/p/w200${tv.poster}`} alt="tv posters" className="tv" />
              <div className="word_box">
             <h4 className="title">{tv.title}</h4>
-            <span className="star-container" ><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
+            {/* <span className="star-container" ><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { watchingReview === tv.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, tvWatching, watchingReview, setWatchingReview)} 
@@ -49,11 +49,10 @@ function Tv() {
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, tvWatching, watchingReview, setWatchingReview)}
                  style={{display: tv.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
-            }
+            } */}
             </div> 
         </div>
     ))
-
 
     const recentlyWatchedTv = tvWatched.slice(0, tvWatchedSlice).map((tv, index) => (
         <div className="recently_watched_tv"  key={tv.id} style={filterSet(tv, watchedReview)}>
