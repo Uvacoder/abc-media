@@ -9,6 +9,7 @@ function Music() {
       
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
+    // eslint-disable-next-line no-unused-vars
     const [watchingReview, setWatchingReview] = useState()
 
    const musicHandshake = handshakeFiveMusic.map((music, index) => (

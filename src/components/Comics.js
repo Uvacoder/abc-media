@@ -9,6 +9,7 @@ function Comics() {
       
     const [handshakeReview, setHandshakeReview] = useState()
     const [readReview, setReadReview] = useState()
+    // eslint-disable-next-line no-unused-vars
     const [readingReview, setReadingReview] = useState()
     
    const bookHandshake = handshakeFiveComics.map((book, index) => (
