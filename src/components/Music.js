@@ -88,23 +88,6 @@ function Music() {
             <div className="music_handshake_flex">
                 {musicHandshake}
             </div>
-            <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Listening</h2>
-            <div className="currently_listening_flex">
-                {nowListening}
-                <div className="slice_toggle" style={{display: nowListening.length > 10 ? "" : "none"}} >
-                    <span className="toggle_arrow" >
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="24" height="24" 
-                        viewBox="0 0 24 24" 
-                        fill="white"
-                        style={{ fontSize: 50 }} onClick={handleMusicListeningArrowToggle} className={musicListeningSlice === 10 ? '' : 'rotate_arrow'}
-                        >
-                        <path d="M12 21l-12-18h24z" />
-                    </svg>
-                    </span>
-                </div>
-            </div>
             <h2 className="sub_section_title"  title="recentlyRead" style={dimmer}>Recently Listened</h2>
             <div className="recently_listening_flex">
                 {recentlyListened}
@@ -116,6 +99,23 @@ function Music() {
                         viewBox="0 0 24 24" 
                         fill="white"
                         style={{ fontSize: 50 }} onClick={handleMusicListedArrowToggle} className={musicListenedSlice === 10 ? '' : 'rotate_arrow'}
+                        >
+                        <path d="M12 21l-12-18h24z" />
+                    </svg>
+                    </span>
+                </div>
+            </div>
+            <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Listening</h2>
+            <div className="currently_listening_flex">
+                {nowListening}
+                <div className="slice_toggle" style={{display: nowListening.length > 10 ? "" : "none"}} >
+                    <span className="toggle_arrow" >
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="24" height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="white"
+                        style={{ fontSize: 50 }} onClick={handleMusicListeningArrowToggle} className={musicListeningSlice === 10 ? '' : 'rotate_arrow'}
                         >
                         <path d="M12 21l-12-18h24z" />
                     </svg>

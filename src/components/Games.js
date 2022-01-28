@@ -86,23 +86,6 @@ function Games() {
             <div className="games_handshake_flex">
                 {gamesHandshake}
             </div>
-            <h2 className="sub_section_title" title="currentlyPlaying" style={dimmer}>Currently Playing</h2>
-            <div className="currently_Playing_flex">
-                {nowPlaying}
-                <div className="slice_toggle" style={{display: nowPlaying.length > 10 ? "" : "none"}} >
-                    <span className="toggle_arrow" >
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="24" height="24" 
-                        viewBox="0 0 24 24" 
-                        fill="white"
-                        style={{ fontSize: 50 }} onClick={handleGamesPlayingArrowToggle} className={gamesPlayingSlice === 10 ? '' : 'rotate_arrow'}
-                        >
-                        <path d="M12 21l-12-18h24z" />
-                    </svg>
-                    </span>
-                </div>
-            </div>
             <h2 className="sub_section_title"  title="recentlyPlayed" style={{dimmer, display: recentlyPlayed.length === 0 ? 'none' : ''}} >Recently Played</h2>
             <div className="recently_Played_flex" style={{display: recentlyPlayed.length === 0 ? 'none' : ''}}>
                 {recentlyPlayed}
@@ -114,6 +97,23 @@ function Games() {
                         viewBox="0 0 24 24" 
                         fill="white"
                         style={{ fontSize: 50 }} onClick={handleGamesPlayedToggle} className={gamesPlayedSlice === 10 ? '' : 'rotate_arrow'}
+                        >
+                        <path d="M12 21l-12-18h24z" />
+                    </svg>
+                    </span>
+                </div>
+            </div>
+            <h2 className="sub_section_title" title="currentlyPlaying" style={dimmer}>Currently Playing</h2>
+            <div className="currently_Playing_flex">
+                {nowPlaying}
+                <div className="slice_toggle" style={{display: nowPlaying.length > 10 ? "" : "none"}} >
+                    <span className="toggle_arrow" >
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="24" height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="white"
+                        style={{ fontSize: 50 }} onClick={handleGamesPlayingArrowToggle} className={gamesPlayingSlice === 10 ? '' : 'rotate_arrow'}
                         >
                         <path d="M12 21l-12-18h24z" />
                     </svg>
