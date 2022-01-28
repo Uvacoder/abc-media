@@ -34,6 +34,13 @@ const gamesPlaying = [
         rating: 4,
         review: ""
     },
+    {   
+        id: "co1voj",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voj.png",
+        title: "Batman: Arkham Asylum",
+        rating: 4,
+        review: ""
+    },
   
     
 
