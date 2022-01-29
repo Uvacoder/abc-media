@@ -70,7 +70,7 @@ const handshakeFiveComics = [
         title: "Batman: Knightfall",
         isbn: "9781563891427",
         rating: 4,
-        review: ""
+        review: "It the middle of one the biggest booms in the history of comics, with certain issues selling multiples of millions came KnightFall. It follows the massively successful Death of Superman storyline. The first part of the arc, KnightFall is perfect while Kightquest and KnightsEnd are less than great. The Kelley Jones covers for the storylines were so incredible it made you want to run out and get the issues. When you see Batmans back get broken and thrown in the street its hard to forget than image. Bane instantly became one of the top villains in comics. Also Knightfall has one of the greatest novelizations ever written for a comic. I don't know that the storyline was even done correctly in another media, but it is a seminal work."
     },
     {   id: "1563892618",
         title: "Preacher",
