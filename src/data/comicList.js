@@ -29,6 +29,12 @@ const comicsReading = [
         rating: 4,
         review: ""
     },
+    {   id: "9781401200602",
+        title: "Hush",
+        isbn: "9781401200602",
+        rating: 4,
+        review: ""
+    },
     
     
   

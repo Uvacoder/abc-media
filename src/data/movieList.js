@@ -776,6 +776,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "268",
+        title: "Batman",
+        poster: "/kbeWnmnHNEnuVej6wcjUv0eY6IL.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "14441",
         title: "Clean and Sober",
         poster: "/hztm5P3iCavyz8MCcIDK3BTVtDO.jpg",
