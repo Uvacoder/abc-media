@@ -23,6 +23,12 @@ const comicsReading = [
         rating: 4,
         review: ""
     },
+    {   id: "9781563898723",
+        title: "The Dark Knight Strikes Again",
+        isbn: "9781563898723",
+        rating: 4,
+        review: ""
+    },
     
     
   

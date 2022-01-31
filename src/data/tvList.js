@@ -291,6 +291,13 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "2098",
+        title: "Batman: The Animated Series",
+        poster: "/lBomQFW1vlm1yUYMNSbFZ45R4Ox.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "30991",
         title: "Cowboy Bebop",
         poster: "/g05iRzPzWwY2liQ60bvW51lLZHQ.jpg",
