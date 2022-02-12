@@ -1,10 +1,4 @@
 const comicsReading = [
-    {   id: "9781563898686",
-        title: "Batman: Dark Victory",
-        isbn: "9781563898686",
-        rating: 3.5,
-        review: ""
-    },
     {   id: "9781401225766",
         title: "Batman: R.I.P.",
         isbn: "9781401225766",
@@ -61,6 +55,12 @@ const comicsRead = [
         rating: 3,
         review: "Haunted Knight is a collection of 3 double sized annuals that each came out around Halloween. It directly led to Long Halloween being launched as a standalone series. Story one is about the Scarecrow and a women who kills her husbands. The second story is about Commissioner Gordon's adopted daughter and the Mad Hatter. The third is sort of a Christmas Carol involving Lucius Fox and Poison Ivy. I though all three stories were good not great and the art was uneven. But I am comparing it to one of the great Batman stories of all time and it is in one of the best Batman series in terms of quality. To put it another way, its not the type of box that if I were buying collected editions that I would need to get an Absolute Edition or a library quality version. Those versions probably have much better coloring than the versions I have read over the years. "
     },
+    {   id: "9781563898686",
+    title: "Batman: Dark Victory",
+    isbn: "9781563898686",
+    rating: 3,
+    review: "Dark Victory is the worst of teh 3 Leob and Sale Batman books. Late 90's bad digital coloring almost ruin the art, along with the white paper instead of the grainy paper that DC used to use. But really the problem is with the story. It wants to be a sequel in some parts but it also wants to be its own thing in other parts. Character says one line on page 12 and is killed on page 16. You have no investment in the people being killed and even the people that you do have an investment in, you don't care that they die. The Robin portion is tacked on for sure, but its at least somewhat interesting. In summation, the pencils are great but the coloring is bad. The story never feels important which is saying something considering Loeb is about to explode as a writer."
+},
     
 
 ]
