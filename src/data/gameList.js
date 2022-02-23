@@ -41,6 +41,20 @@ const gamesPlaying = [
         rating: 4,
         review: ""
     },
+    {   
+        id: "co2lbd",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.png",
+        title: "Grand Theft Auto 5",
+        rating: 5,
+        review: ""
+    },
+    {   
+        id: "co246i",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co246i.png",
+        title: "Gears of War: Ultimate Edition",
+        rating: 4,
+        review: ""
+    },
   
     
 
