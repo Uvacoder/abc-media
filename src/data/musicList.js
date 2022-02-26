@@ -31,6 +31,22 @@ const musicListening = [
         rating: 4,
         review: ""
     },
+    {   
+        id: "f2687628-fc73-4351-9fe6-1ae66beadd17",
+        cover: "https://ia902802.us.archive.org/6/items/mbid-f2687628-fc73-4351-9fe6-1ae66beadd17/mbid-f2687628-fc73-4351-9fe6-1ae66beadd17-25287220105_thumb250.jpg",
+        artist: "The Beatles",
+        title: "Let It Be",
+        rating: 4,
+        review: ""
+    },
+    {   
+        id: "c49f8cce-650d-48a4-a0d9-396c40bab780",
+        cover: "https://ia601603.us.archive.org/17/items/mbid-c49f8cce-650d-48a4-a0d9-396c40bab780/mbid-c49f8cce-650d-48a4-a0d9-396c40bab780-16737650536_thumb250.jpg",
+        artist: "Soundgarden",
+        title: "Superunknown",
+        rating: 4,
+        review: ""
+    },
     
 
 ].reverse()
