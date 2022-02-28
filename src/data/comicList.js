@@ -23,15 +23,6 @@ const comicsReading = [
         rating: 4,
         review: ""
     },
-    {   id: "9781401200602",
-        title: "Hush",
-        isbn: "9781401200602",
-        rating: 4,
-        review: ""
-    },
-    
-    
-  
     
 
 ].reverse()
@@ -60,7 +51,13 @@ const comicsRead = [
     isbn: "9781563898686",
     rating: 3,
     review: "Dark Victory is the worst of teh 3 Leob and Sale Batman books. Late 90's bad digital coloring almost ruin the art, along with the white paper instead of the grainy paper that DC used to use. But really the problem is with the story. It wants to be a sequel in some parts but it also wants to be its own thing in other parts. Character says one line on page 12 and is killed on page 16. You have no investment in the people being killed and even the people that you do have an investment in, you don't care that they die. The Robin portion is tacked on for sure, but its at least somewhat interesting. In summation, the pencils are great but the coloring is bad. The story never feels important which is saying something considering Loeb is about to explode as a writer."
-},
+    },
+    {   id: "9781401200602",
+        title: "Hush",
+        isbn: "9781401200602",
+        rating: 4,
+        review: "If your a writer you want to helm Batman to write detective stories. If your a penciler you want to draw Batman's rogues gallery. Leob's bona fides on Batman had already been established but the chance to see Jim Lee do a full arc on Batman really excited long time comic readers. Lee is one of the most influential artist of his generation but before working with DC he never had the must read story attached to his name. In Hush we get a solid story with on high quality paper with modern coloring. It's as if Lee picked up right were he left off when he left Marvel to form Image. I always got the sense that he was like Speilberg when he started DreamWorks. He did really want to start his own thing and was happy with the status quo. But he also wanted to help his friends who needed his star power to get the venture off the ground, and when there was an opportunity to return, he would slide right back. Hush by itself isn't the greatest comic, however combined with the creativity across the street at the time, it was a touchstone in the last great era of comics. "
+    },
     
 
 ]

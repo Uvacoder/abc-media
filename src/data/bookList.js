@@ -56,6 +56,12 @@
         isbn: "",
         rating: 4,
         review: ""
+    },
+    {   id: "43",
+        title: "Shahnameh: The Epic of the Persian Kings",
+        isbn: "9781631494468",
+        rating: 4,
+        review: ""
     }
 
 ].reverse()
