@@ -55,6 +55,13 @@ const gamesPlaying = [
         rating: 4,
         review: ""
     },
+    {   
+        id: "co4hk8",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hk8.png",
+        title: "Cyberpunk 2077",
+        rating: 4,
+        review: ""
+    },
   
     
 
