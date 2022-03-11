@@ -23,6 +23,12 @@ const comicsReading = [
         rating: 4,
         review: ""
     },
+    {   id: "067103829X",
+        title: "Batman: No Man's Land",
+        isbn: "067103829X",
+        rating: 4,
+        review: ""
+    },
     
 
 ].reverse()
