@@ -42,13 +42,6 @@ const gamesPlaying = [
         review: ""
     },
     {   
-        id: "co2lbd",
-        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.png",
-        title: "Grand Theft Auto 5",
-        rating: 5,
-        review: ""
-    },
-    {   
         id: "co246i",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co246i.png",
         title: "Gears of War: Ultimate Edition",
@@ -68,6 +61,13 @@ const gamesPlaying = [
 ].reverse()
 
 const gamesPlayed = [
+    {   
+        id: "co2lbd",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.png",
+        title: "Grand Theft Auto 5",
+        rating: 5,
+        review: "GTA5 is a great game, and it has been for now 3 generations. Its length and breath has overshadowed every other GTA game. The current rerelease opens the Take Two up to very valid criticism when it come to respecting your fans and greed. The game had in a way become timeless like a Nintendo games are. While it dodges critiques of showing it's age by constantly releasing a new graphically updated version. Personally I've bought the game 3 times. I wont be buying it again. Theres no reason why I, having bought the game a month ago on Xbox series X was not given a free update. Even right now the confusion on which version to buy persists in the marketplace. I know that GTA6 is on the horizon but I'm not dying to play it nor do I have confidence that it will have the legs that 5 has."
+    },
     {   
         id: "co1xhg",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xhg.png",

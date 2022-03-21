@@ -64,6 +64,12 @@ const comicsRead = [
         rating: 4,
         review: "If your a writer you want to helm Batman to write detective stories. If your a penciler you want to draw Batman's rogues gallery. Leob's bona fides on Batman had already been established but the chance to see Jim Lee do a full arc on Batman really excited long time comic readers. Lee is one of the most influential artist of his generation but before working with DC he never had the must read story attached to his name. In Hush we get a solid story with on high quality paper with modern coloring. It's as if Lee picked up right were he left off when he left Marvel to form Image. I always got the sense that he was like Speilberg when he started DreamWorks. He did really want to start his own thing and was happy with the status quo. But he also wanted to help his friends who needed his star power to get the venture off the ground, and when there was an opportunity to return, he would slide right back. Hush by itself isn't the greatest comic, however combined with the creativity across the street at the time, it was a touchstone in the last great era of comics. "
     },
+    {   id: "9781401225766",
+    title: "Batman: R.I.P.",
+    isbn: "9781401225766",
+    rating: 3.5,
+    review: "Batman RIP is actually a really great story. Just not in the form that its presented. If you want to read Grant Morrison in full effect then you need to read him in 25, 50 100 issue chunks. The version I read this time was missing much of the lead up and all of the aftermath. If you read Batman's greatest stories a lot of the angles are the same but the work with the subconscious is what is fresh. The re-imagining of Joker and the level of of Damian are the strong and long lasting parts of the story. I read the entire arc as it was coming out and those memories are going to be stronger than the version I read. "
+},
     
 
 ]
