@@ -291,6 +291,13 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "60059",
+        title: "Better Call Saul",
+        poster: "/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+        rating: 4.5,
+        review: ""
+    },
+    {
         id: "2098",
         title: "Batman: The Animated Series",
         poster: "/lBomQFW1vlm1yUYMNSbFZ45R4Ox.jpg",

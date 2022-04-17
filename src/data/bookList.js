@@ -62,6 +62,12 @@
         isbn: "9781631494468",
         rating: 4,
         review: ""
+    },
+    {   id: "44",
+        title: "Hammer of the Gods",
+        isbn: "1572973064",
+        rating: 4,
+        review: ""
     }
 
 ].reverse()
