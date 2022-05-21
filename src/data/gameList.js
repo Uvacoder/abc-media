@@ -49,18 +49,26 @@ const gamesPlaying = [
         review: ""
     },
     {   
-        id: "co4hk8",
-        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hk8.png",
-        title: "Cyberpunk 2077",
+        id: "co39vc",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.png",
+        title: "Hades",
         rating: 4,
         review: ""
     },
+    
   
     
 
 ].reverse()
 
 const gamesPlayed = [
+    {   
+        id: "co4hk8",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hk8.png",
+        title: "Cyberpunk 2077",
+        rating: 4,
+        review: ""
+    },
     {   
         id: "co2lbd",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.png",
