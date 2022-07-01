@@ -55,6 +55,13 @@ const gamesPlaying = [
         rating: 4,
         review: ""
     },
+    {   
+        id: "co2uro",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uro.png",
+        title: "Dark Souls: Remastered",
+        rating: 4,
+        review: ""
+    },
     
   
     
