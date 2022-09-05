@@ -48,17 +48,25 @@ const gamesPlaying = [
         rating: 4,
         review: ""
     },
-    {   
-        id: "co39vc",
-        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.png",
-        title: "Hades",
-        rating: 4,
-        review: ""
-    },
+  
     {   
         id: "co2uro",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uro.png",
         title: "Dark Souls: Remastered",
+        rating: 4,
+        review: ""
+    },
+    {   
+        id: "co49fq",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co49fq.png",
+        title: "Cuphead",
+        rating: 4,
+        review: ""
+    },
+    {   
+        id: "co1v7f",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v7f.png",
+        title: "Doom",
         rating: 4,
         review: ""
     },
@@ -69,6 +77,13 @@ const gamesPlaying = [
 ].reverse()
 
 const gamesPlayed = [
+      {   
+        id: "co39vc",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.png",
+        title: "Hades",
+        rating: 5,
+        review: ""
+    },
     {   
         id: "co4hk8",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hk8.png",
