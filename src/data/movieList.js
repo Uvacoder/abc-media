@@ -776,6 +776,20 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "243",
+        title: "High Fidelity",
+        poster: "/e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+        rating: 4,
+        review: "This is really a 70's movie made in the 00's. There are a bunch of great lines in this movie. For me this is Clooney's best movie. Some of Clooney's better liked movies are more ensemble. As a staring role, this is the best.  I could watch this every day for a month if I had to.  "
+    },
+    {
+        id: "4566",
+        title: "Michael Clayton",
+        poster: "/zqNn9qqDlK8K0AxO7Vf038kilnR.jpg",
+        rating: 4.5,
+        review: "This is really a 70's movie made in the 00's. There are a bunch of great lines in this movie. For me this is Clooney's best movie. Some of Clooney's better liked movies are more ensemble. As a staring role, this is the best.  I could watch this every day for a month if I had to.  "
+    },
+    {
         id: "268",
         title: "Batman",
         poster: "/kbeWnmnHNEnuVej6wcjUv0eY6IL.jpg",

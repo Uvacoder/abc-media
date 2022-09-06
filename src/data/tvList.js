@@ -291,6 +291,20 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "83631",
+        title: "What We Do in the Shadows",
+        poster: "/upILoikY5tqkePrhBVNdInlOrD9.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "204284",
+        title: "The Rehearsal",
+        poster: "/uI2nDcPa92UDK6c88J4Mni7yHqR.jpg",
+        rating: 4.5,
+        review: ""
+    },
+    {
         id: "73107",
         title: "Barry",
         poster: "/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
