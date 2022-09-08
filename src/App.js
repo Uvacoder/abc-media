@@ -19,9 +19,9 @@ function App() {
      <Header />
      <Movies />
      <Tv />
-     <Music />
-     <Games />
      <Books />
+     <Games />
+     <Music />
      <Comics />
      <Footer />
     </div>

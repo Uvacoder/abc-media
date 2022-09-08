@@ -21,20 +21,20 @@ export default function IconNav() {
                 className="iconNav-icon">
                 <TVIcon />
             </a>
-            <a href="#music" 
+             <a href="#books" 
                 style={{fill: "white"}} 
                 className="iconNav-icon">
-                <MusicIcon />
+                <BookIcon />
             </a>
-            <a href="#games" 
+             <a href="#games" 
                 style={{fill: "white"}} 
                 className="iconNav-icon">
                 <GameIcon />
             </a>
-            <a href="#books" 
+            <a href="#music" 
                 style={{fill: "white"}} 
                 className="iconNav-icon">
-                <BookIcon />
+                <MusicIcon />
             </a>
             <a href="#comics" 
                 style={{fill: "white"}} 

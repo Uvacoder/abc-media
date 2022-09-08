@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "73107",
+        title: "Barry",
+        poster: "/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
+        rating: 4.5,
+        review: "One of the last tv show that I genuinely get excited to watch.  Season 2 of Barry started to bend the reality and what was possible in the shows world. Season 3 completely flipped everything upside down. Bill Hader's bona fides when it comes to classic movies is unquestioned and in this show there are a lot easter eggs for film fans. Each episode has at least one amazing scene that you should look up the making of afterwards. In the end though, Barry's troubles are just beginning."
+    },
+    {
         id: "83631",
         title: "What We Do in the Shadows",
         poster: "/upILoikY5tqkePrhBVNdInlOrD9.jpg",
@@ -304,14 +311,6 @@ const tvWatched = [
 ]
 
 const tvWatching = [
-   
-    {
-        id: "73107",
-        title: "Barry",
-        poster: "/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
-        rating: 4.5,
-        review: ""
-    },
     {
         id: "60059",
         title: "Better Call Saul",
