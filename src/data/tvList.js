@@ -1,5 +1,19 @@
 const tvWatched = [
     {
+        id: "83631",
+        title: "What We Do in the Shadows",
+        poster: "/upILoikY5tqkePrhBVNdInlOrD9.jpg",
+        rating: 4,
+        review: "With the remakes of the Munsters and the Addams Family, it has crystallized the fact that What We Do In The Shadows is the true modern version of those shows. This season was better than the previous and much more consistent. Though there is a problem of death not mattering. It seems absurd to talk about in a show about vampires, but every major death of the last few years has been walked back. The week part of the show is that some of the side characters that just stay too long."
+    },
+    {
+        id: "204284",
+        title: "The Rehearsal",
+        poster: "/uI2nDcPa92UDK6c88J4Mni7yHqR.jpg",
+        rating: 4.5,
+        review: "Nathan Fielder has topped himself. Nathan for You is one of the best comedy show of the last decade, so when Nathan disappeared fans were left in the dark. The Rehearsal is better in every way to NFY. In budget, by building full size replicas of bars or by hiring score of actors to create the scenarios. In cringe, by trying to parse anti Semitism, to forcing people into situations they would other wise avoid. In heart, the last episode is both sad and emotionally jarring. All that money, but no 4k though. "
+    },
+    {
         id: "128876",
         title: "The Beatles: Get Back",
         poster: "/nxy9fg1rT853P7zP7ZQGqRimiCS.jpg",
@@ -290,20 +304,7 @@ const tvWatched = [
 ]
 
 const tvWatching = [
-    {
-        id: "83631",
-        title: "What We Do in the Shadows",
-        poster: "/upILoikY5tqkePrhBVNdInlOrD9.jpg",
-        rating: 4,
-        review: ""
-    },
-    {
-        id: "204284",
-        title: "The Rehearsal",
-        poster: "/uI2nDcPa92UDK6c88J4Mni7yHqR.jpg",
-        rating: 4.5,
-        review: ""
-    },
+   
     {
         id: "73107",
         title: "Barry",
